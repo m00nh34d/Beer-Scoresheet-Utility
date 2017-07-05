@@ -18,9 +18,6 @@ namespace Scoresheet_Reader
     {
         public void extractImages(string filename)
         {
-            ///TODO file paths need to be fixed
-            ///TODO Read TIFs as well as PDFs
-            ///
 
             int i = 1;
             string filenameOut;
@@ -96,6 +93,10 @@ namespace Scoresheet_Reader
 
         public List<string> getImagesFromPDF(Stream pdfStream)
         {
+            ///TODO file paths need to be fixed
+            ///TODO Read TIFs as well as PDFs
+            ///
+
             List<string> outputImagePaths = new List<string>();
             string filenameTemp;
 
