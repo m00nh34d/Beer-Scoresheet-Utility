@@ -371,8 +371,12 @@ namespace Scoresheet_Reader
         private void customScoresheetButton_Click(object sender, EventArgs e)
         {
             customScoresheetOpenFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-            customScoresheetOpenFileDialog.ShowDialog();
-            reportPath = customScoresheetOpenFileDialog.FileName;
+            DialogResult dr = customScoresheetOpenFileDialog.ShowDialog();
+            if (dr == DialogResult.OK)
+            {
+                reportPath = customScoresheetOpenFileDialog.FileName;
+                customScoresheetLabel.Visible = true;
+            }
         }
 
         private void saveScoresheetLocationButton_Click(object sender, EventArgs e)

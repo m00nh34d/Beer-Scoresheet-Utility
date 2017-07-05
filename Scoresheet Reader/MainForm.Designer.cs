@@ -63,6 +63,7 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.customScoresheetOpenFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.saveGeneratedScoresheetsFileDialog = new System.Windows.Forms.SaveFileDialog();
+            this.customScoresheetLabel = new System.Windows.Forms.Label();
             this.statusStrip1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -102,6 +103,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.customScoresheetLabel);
             this.tabPage2.Controls.Add(this.customScoresheetButton);
             this.tabPage2.Controls.Add(this.groupBox1);
             this.tabPage2.Controls.Add(this.competitionName);
@@ -382,6 +384,17 @@
             this.saveGeneratedScoresheetsFileDialog.DefaultExt = "pdf";
             this.saveGeneratedScoresheetsFileDialog.Filter = "Portable Document Format|*.pdf";
             // 
+            // customScoresheetLabel
+            // 
+            this.customScoresheetLabel.AutoSize = true;
+            this.customScoresheetLabel.ForeColor = System.Drawing.Color.DarkRed;
+            this.customScoresheetLabel.Location = new System.Drawing.Point(209, 123);
+            this.customScoresheetLabel.Name = "customScoresheetLabel";
+            this.customScoresheetLabel.Size = new System.Drawing.Size(141, 13);
+            this.customScoresheetLabel.TabIndex = 13;
+            this.customScoresheetLabel.Text = "Custom Scoresheet Loaded!";
+            this.customScoresheetLabel.Visible = false;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -446,6 +459,7 @@
         private System.Windows.Forms.Button customScoresheetButton;
         private System.Windows.Forms.OpenFileDialog customScoresheetOpenFileDialog;
         private System.Windows.Forms.SaveFileDialog saveGeneratedScoresheetsFileDialog;
+        private System.Windows.Forms.Label customScoresheetLabel;
     }
 }
 
