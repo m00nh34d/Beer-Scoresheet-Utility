@@ -1,1 +1,2 @@
-# Scoresheet-Reader
+# Beer Scoresheet Utility
+
