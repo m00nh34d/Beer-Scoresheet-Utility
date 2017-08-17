@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="ScoresheetSetupInstall" Language="1033" Version="1.0.0.0" Manufacturer="Psychodramatic High Mass" UpgradeCode="8edc4c59-cd3f-422b-8c4b-33d13c044f95">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate />
+
+		<Feature Id="ProductFeature" Title="ScoresheetSetupInstall" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+      <ComponentRef Id="free3of9Font"/>
+		</Feature>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="ScoresheetSetupInstall" />
+			</Directory>
+      <Directory Id="FontsFolder">
+        <Component Id="free3of9Font" Guid="*">
+          <File Id="free3of9File" Source="$(var.Scoresheet Reader.TargetDir)\free3of9.ttf" TrueType="yes" KeyPath="yes"/>
+        </Component>
+      </Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+			<!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
+      <Component Id="ProductComponent">
+        <File Source="$(var.Scoresheet Reader.TargetPath)" />
+				<!-- TODO: Insert files, registry keys, and other resources here. -->
+			</Component>
+      
+		</ComponentGroup>
+	</Fragment>
+</Wix>

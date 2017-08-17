@@ -36,7 +36,11 @@
             this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.scoresheetSplitOutputFolderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.printScoresheetsTabPage = new System.Windows.Forms.TabPage();
+            this.customLogoFilenameBrowse = new System.Windows.Forms.Button();
+            this.customLogoFilenameInput = new System.Windows.Forms.TextBox();
+            this.saveScoresheetReport = new System.Windows.Forms.Button();
+            this.customScoresheetLabel = new System.Windows.Forms.Label();
             this.customScoresheetButton = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.ssAABC = new System.Windows.Forms.RadioButton();
@@ -46,13 +50,13 @@
             this.numberOfScoresheetsInput = new System.Windows.Forms.NumericUpDown();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.scoresheetComboBox = new System.Windows.Forms.ComboBox();
-            this.scoresheetReportsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.saveScoresheetLocationButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.scoresheetFileNameInput = new System.Windows.Forms.TextBox();
-            this.saveScoresheetsButton = new System.Windows.Forms.Button();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.processImagesTabPage = new System.Windows.Forms.TabPage();
+            this.includeLeadingZerosCheckbox = new System.Windows.Forms.CheckBox();
+            this.imageFilenamePrefixInput = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.scannedPdfFileNameTextBox = new System.Windows.Forms.TextBox();
@@ -63,13 +67,13 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.customScoresheetOpenFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.saveGeneratedScoresheetsFileDialog = new System.Windows.Forms.SaveFileDialog();
-            this.customScoresheetLabel = new System.Windows.Forms.Label();
+            this.customLogoFilenameOpenFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.defaultTooltip = new System.Windows.Forms.ToolTip(this.components);
             this.statusStrip1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
+            this.printScoresheetsTabPage.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numberOfScoresheetsInput)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.scoresheetReportsBindingSource)).BeginInit();
-            this.tabPage1.SuspendLayout();
+            this.processImagesTabPage.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -101,35 +105,79 @@
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(48, 17);
             this.toolStripStatusLabel1.Text = "Ready...";
             // 
-            // tabPage2
+            // printScoresheetsTabPage
             // 
-            this.tabPage2.Controls.Add(this.customScoresheetLabel);
-            this.tabPage2.Controls.Add(this.customScoresheetButton);
-            this.tabPage2.Controls.Add(this.groupBox1);
-            this.tabPage2.Controls.Add(this.competitionName);
-            this.tabPage2.Controls.Add(this.label4);
-            this.tabPage2.Controls.Add(this.numberOfScoresheetsInput);
-            this.tabPage2.Controls.Add(this.label3);
-            this.tabPage2.Controls.Add(this.label2);
-            this.tabPage2.Controls.Add(this.scoresheetComboBox);
-            this.tabPage2.Controls.Add(this.saveScoresheetLocationButton);
-            this.tabPage2.Controls.Add(this.label1);
-            this.tabPage2.Controls.Add(this.scoresheetFileNameInput);
-            this.tabPage2.Controls.Add(this.saveScoresheetsButton);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(504, 170);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Print Scoresheets";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.printScoresheetsTabPage.Controls.Add(this.customLogoFilenameBrowse);
+            this.printScoresheetsTabPage.Controls.Add(this.customLogoFilenameInput);
+            this.printScoresheetsTabPage.Controls.Add(this.saveScoresheetReport);
+            this.printScoresheetsTabPage.Controls.Add(this.customScoresheetLabel);
+            this.printScoresheetsTabPage.Controls.Add(this.customScoresheetButton);
+            this.printScoresheetsTabPage.Controls.Add(this.groupBox1);
+            this.printScoresheetsTabPage.Controls.Add(this.competitionName);
+            this.printScoresheetsTabPage.Controls.Add(this.label4);
+            this.printScoresheetsTabPage.Controls.Add(this.numberOfScoresheetsInput);
+            this.printScoresheetsTabPage.Controls.Add(this.label3);
+            this.printScoresheetsTabPage.Controls.Add(this.label2);
+            this.printScoresheetsTabPage.Controls.Add(this.saveScoresheetLocationButton);
+            this.printScoresheetsTabPage.Controls.Add(this.label1);
+            this.printScoresheetsTabPage.Controls.Add(this.scoresheetFileNameInput);
+            this.printScoresheetsTabPage.Location = new System.Drawing.Point(4, 22);
+            this.printScoresheetsTabPage.Name = "printScoresheetsTabPage";
+            this.printScoresheetsTabPage.Padding = new System.Windows.Forms.Padding(3);
+            this.printScoresheetsTabPage.Size = new System.Drawing.Size(504, 170);
+            this.printScoresheetsTabPage.TabIndex = 1;
+            this.printScoresheetsTabPage.Text = "Print Scoresheets";
+            this.printScoresheetsTabPage.UseVisualStyleBackColor = true;
+            // 
+            // customLogoFilenameBrowse
+            // 
+            this.customLogoFilenameBrowse.Location = new System.Drawing.Point(424, 53);
+            this.customLogoFilenameBrowse.Margin = new System.Windows.Forms.Padding(2);
+            this.customLogoFilenameBrowse.Name = "customLogoFilenameBrowse";
+            this.customLogoFilenameBrowse.Size = new System.Drawing.Size(75, 23);
+            this.customLogoFilenameBrowse.TabIndex = 16;
+            this.customLogoFilenameBrowse.Text = "Browse...";
+            this.customLogoFilenameBrowse.UseVisualStyleBackColor = true;
+            this.customLogoFilenameBrowse.Click += new System.EventHandler(this.customLogoFilenameBrowse_Click);
+            // 
+            // customLogoFilenameInput
+            // 
+            this.customLogoFilenameInput.Location = new System.Drawing.Point(7, 55);
+            this.customLogoFilenameInput.Margin = new System.Windows.Forms.Padding(2);
+            this.customLogoFilenameInput.Name = "customLogoFilenameInput";
+            this.customLogoFilenameInput.Size = new System.Drawing.Size(413, 20);
+            this.customLogoFilenameInput.TabIndex = 15;
+            this.defaultTooltip.SetToolTip(this.customLogoFilenameInput, "Image file to use for the logo in these scoresheets.\r\nBJCP style uses a 104x104px" +
+        " 96DPI logo\r\nAABC style uses as 491x67px 96DPI logo");
+            // 
+            // saveScoresheetReport
+            // 
+            this.saveScoresheetReport.Location = new System.Drawing.Point(8, 117);
+            this.saveScoresheetReport.Margin = new System.Windows.Forms.Padding(2);
+            this.saveScoresheetReport.Name = "saveScoresheetReport";
+            this.saveScoresheetReport.Size = new System.Drawing.Size(65, 24);
+            this.saveScoresheetReport.TabIndex = 14;
+            this.saveScoresheetReport.Text = "Save";
+            this.saveScoresheetReport.UseVisualStyleBackColor = true;
+            this.saveScoresheetReport.Click += new System.EventHandler(this.saveScoresheetReport_Click);
+            // 
+            // customScoresheetLabel
+            // 
+            this.customScoresheetLabel.AutoSize = true;
+            this.customScoresheetLabel.ForeColor = System.Drawing.Color.DarkRed;
+            this.customScoresheetLabel.Location = new System.Drawing.Point(209, 146);
+            this.customScoresheetLabel.Name = "customScoresheetLabel";
+            this.customScoresheetLabel.Size = new System.Drawing.Size(141, 13);
+            this.customScoresheetLabel.TabIndex = 13;
+            this.customScoresheetLabel.Text = "Custom Scoresheet Loaded!";
+            this.customScoresheetLabel.Visible = false;
             // 
             // customScoresheetButton
             // 
-            this.customScoresheetButton.Location = new System.Drawing.Point(356, 118);
+            this.customScoresheetButton.Location = new System.Drawing.Point(356, 141);
             this.customScoresheetButton.Name = "customScoresheetButton";
             this.customScoresheetButton.Size = new System.Drawing.Size(145, 23);
-            this.customScoresheetButton.TabIndex = 12;
+            this.customScoresheetButton.TabIndex = 9;
             this.customScoresheetButton.Text = "Custom Scoresheet File...";
             this.customScoresheetButton.UseVisualStyleBackColor = true;
             this.customScoresheetButton.Click += new System.EventHandler(this.customScoresheetButton_Click);
@@ -138,12 +186,14 @@
             // 
             this.groupBox1.Controls.Add(this.ssAABC);
             this.groupBox1.Controls.Add(this.ssBJCP);
-            this.groupBox1.Location = new System.Drawing.Point(372, 46);
+            this.groupBox1.Location = new System.Drawing.Point(375, 76);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(126, 35);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Score Type";
+            this.groupBox1.Text = "Scoresheet Type";
+            this.defaultTooltip.SetToolTip(this.groupBox1, "Select the pre-defined scoresheet style.\r\nScores are as per the guidelines for ea" +
+        "ch sheet.");
             // 
             // ssAABC
             // 
@@ -151,7 +201,7 @@
             this.ssAABC.Location = new System.Drawing.Point(63, 12);
             this.ssAABC.Name = "ssAABC";
             this.ssAABC.Size = new System.Drawing.Size(53, 17);
-            this.ssAABC.TabIndex = 10;
+            this.ssAABC.TabIndex = 5;
             this.ssAABC.Text = "AABC";
             this.ssAABC.UseVisualStyleBackColor = true;
             // 
@@ -162,24 +212,25 @@
             this.ssBJCP.Location = new System.Drawing.Point(6, 12);
             this.ssBJCP.Name = "ssBJCP";
             this.ssBJCP.Size = new System.Drawing.Size(51, 17);
-            this.ssBJCP.TabIndex = 9;
+            this.ssBJCP.TabIndex = 4;
             this.ssBJCP.TabStop = true;
             this.ssBJCP.Text = "BJCP";
             this.ssBJCP.UseVisualStyleBackColor = true;
             // 
             // competitionName
             // 
-            this.competitionName.Location = new System.Drawing.Point(159, 93);
+            this.competitionName.Location = new System.Drawing.Point(161, 116);
             this.competitionName.Margin = new System.Windows.Forms.Padding(2);
             this.competitionName.Name = "competitionName";
             this.competitionName.Size = new System.Drawing.Size(340, 20);
-            this.competitionName.TabIndex = 8;
-            this.competitionName.Text = "Merri Mashers IPA Competition 2017";
+            this.competitionName.TabIndex = 7;
+            this.competitionName.Text = "Homebrew Competition 2017";
+            this.defaultTooltip.SetToolTip(this.competitionName, "Name that will appear at the top of each scoresheet.");
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(156, 78);
+            this.label4.Location = new System.Drawing.Point(158, 101);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(93, 13);
@@ -197,7 +248,9 @@
             0});
             this.numberOfScoresheetsInput.Name = "numberOfScoresheetsInput";
             this.numberOfScoresheetsInput.Size = new System.Drawing.Size(65, 20);
-            this.numberOfScoresheetsInput.TabIndex = 4;
+            this.numberOfScoresheetsInput.TabIndex = 6;
+            this.defaultTooltip.SetToolTip(this.numberOfScoresheetsInput, "Number of scoresheets to generate.\r\nYou will need a unique scroesheet for each en" +
+        "try/judge. (Do not photocopy scoreshets)");
             this.numberOfScoresheetsInput.Value = new decimal(new int[] {
             10,
             0,
@@ -220,26 +273,9 @@
             this.label2.Location = new System.Drawing.Point(5, 40);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(88, 13);
+            this.label2.Size = new System.Drawing.Size(94, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Scoresheet Type";
-            // 
-            // scoresheetComboBox
-            // 
-            this.scoresheetComboBox.DataSource = this.scoresheetReportsBindingSource;
-            this.scoresheetComboBox.DisplayMember = "name";
-            this.scoresheetComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.scoresheetComboBox.FormattingEnabled = true;
-            this.scoresheetComboBox.Location = new System.Drawing.Point(8, 55);
-            this.scoresheetComboBox.Margin = new System.Windows.Forms.Padding(2);
-            this.scoresheetComboBox.Name = "scoresheetComboBox";
-            this.scoresheetComboBox.Size = new System.Drawing.Size(339, 21);
-            this.scoresheetComboBox.TabIndex = 3;
-            this.scoresheetComboBox.ValueMember = "filePath";
-            // 
-            // scoresheetReportsBindingSource
-            // 
-            this.scoresheetReportsBindingSource.DataSource = typeof(Scoresheet_Reader.scoresheetReports);
+            this.label2.Text = "Custom Logo Path";
             // 
             // saveScoresheetLocationButton
             // 
@@ -267,36 +303,63 @@
             this.scoresheetFileNameInput.Location = new System.Drawing.Point(7, 18);
             this.scoresheetFileNameInput.Margin = new System.Windows.Forms.Padding(2);
             this.scoresheetFileNameInput.Name = "scoresheetFileNameInput";
-            this.scoresheetFileNameInput.Size = new System.Drawing.Size(339, 20);
+            this.scoresheetFileNameInput.Size = new System.Drawing.Size(413, 20);
             this.scoresheetFileNameInput.TabIndex = 1;
             this.scoresheetFileNameInput.Text = "c:\\scoresheets\\example.pdf";
             // 
-            // saveScoresheetsButton
+            // processImagesTabPage
             // 
-            this.saveScoresheetsButton.Location = new System.Drawing.Point(8, 118);
-            this.saveScoresheetsButton.Name = "saveScoresheetsButton";
-            this.saveScoresheetsButton.Size = new System.Drawing.Size(75, 23);
-            this.saveScoresheetsButton.TabIndex = 5;
-            this.saveScoresheetsButton.Text = "Save";
-            this.saveScoresheetsButton.UseVisualStyleBackColor = true;
-            this.saveScoresheetsButton.Click += new System.EventHandler(this.saveScoresheetsButton_Click);
+            this.processImagesTabPage.Controls.Add(this.includeLeadingZerosCheckbox);
+            this.processImagesTabPage.Controls.Add(this.imageFilenamePrefixInput);
+            this.processImagesTabPage.Controls.Add(this.label7);
+            this.processImagesTabPage.Controls.Add(this.label6);
+            this.processImagesTabPage.Controls.Add(this.label5);
+            this.processImagesTabPage.Controls.Add(this.scannedPdfFileNameTextBox);
+            this.processImagesTabPage.Controls.Add(this.folderSaveTextBox);
+            this.processImagesTabPage.Controls.Add(this.saveScoresheetFolderButton);
+            this.processImagesTabPage.Controls.Add(this.processScoresheetsButton);
+            this.processImagesTabPage.Controls.Add(this.openScannedScoresheetButton);
+            this.processImagesTabPage.Location = new System.Drawing.Point(4, 22);
+            this.processImagesTabPage.Name = "processImagesTabPage";
+            this.processImagesTabPage.Padding = new System.Windows.Forms.Padding(3);
+            this.processImagesTabPage.Size = new System.Drawing.Size(504, 170);
+            this.processImagesTabPage.TabIndex = 0;
+            this.processImagesTabPage.Text = "Process Scanned Images";
+            this.processImagesTabPage.UseVisualStyleBackColor = true;
             // 
-            // tabPage1
+            // includeLeadingZerosCheckbox
             // 
-            this.tabPage1.Controls.Add(this.label6);
-            this.tabPage1.Controls.Add(this.label5);
-            this.tabPage1.Controls.Add(this.scannedPdfFileNameTextBox);
-            this.tabPage1.Controls.Add(this.folderSaveTextBox);
-            this.tabPage1.Controls.Add(this.saveScoresheetFolderButton);
-            this.tabPage1.Controls.Add(this.processScoresheetsButton);
-            this.tabPage1.Controls.Add(this.openScannedScoresheetButton);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(504, 170);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Process Scanned Images";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.includeLeadingZerosCheckbox.AutoSize = true;
+            this.includeLeadingZerosCheckbox.Checked = true;
+            this.includeLeadingZerosCheckbox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.includeLeadingZerosCheckbox.Location = new System.Drawing.Point(167, 96);
+            this.includeLeadingZerosCheckbox.Name = "includeLeadingZerosCheckbox";
+            this.includeLeadingZerosCheckbox.Size = new System.Drawing.Size(194, 17);
+            this.includeLeadingZerosCheckbox.TabIndex = 12;
+            this.includeLeadingZerosCheckbox.Text = "Include Leading Zeros in Filename?";
+            this.defaultTooltip.SetToolTip(this.includeLeadingZerosCheckbox, resources.GetString("includeLeadingZerosCheckbox.ToolTip"));
+            this.includeLeadingZerosCheckbox.UseVisualStyleBackColor = true;
+            // 
+            // imageFilenamePrefixInput
+            // 
+            this.imageFilenamePrefixInput.Location = new System.Drawing.Point(6, 94);
+            this.imageFilenamePrefixInput.Margin = new System.Windows.Forms.Padding(2);
+            this.imageFilenamePrefixInput.Name = "imageFilenamePrefixInput";
+            this.imageFilenamePrefixInput.Size = new System.Drawing.Size(156, 20);
+            this.imageFilenamePrefixInput.TabIndex = 9;
+            this.imageFilenamePrefixInput.Text = "IMG-";
+            this.defaultTooltip.SetToolTip(this.imageFilenamePrefixInput, "All files will begin with the text entered here. \r\neg. barcode 00345 with a prefi" +
+        "x IMG- will have a filename IMG-00345.jpg");
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(5, 79);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(78, 13);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "Filename Prefix";
             // 
             // label6
             // 
@@ -347,7 +410,7 @@
             // 
             // processScoresheetsButton
             // 
-            this.processScoresheetsButton.Location = new System.Drawing.Point(3, 82);
+            this.processScoresheetsButton.Location = new System.Drawing.Point(6, 119);
             this.processScoresheetsButton.Name = "processScoresheetsButton";
             this.processScoresheetsButton.Size = new System.Drawing.Size(75, 23);
             this.processScoresheetsButton.TabIndex = 0;
@@ -367,8 +430,8 @@
             // 
             // tabControl1
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.printScoresheetsTabPage);
+            this.tabControl1.Controls.Add(this.processImagesTabPage);
             this.tabControl1.Location = new System.Drawing.Point(12, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -384,16 +447,10 @@
             this.saveGeneratedScoresheetsFileDialog.DefaultExt = "pdf";
             this.saveGeneratedScoresheetsFileDialog.Filter = "Portable Document Format|*.pdf";
             // 
-            // customScoresheetLabel
+            // customLogoFilenameOpenFileDialog
             // 
-            this.customScoresheetLabel.AutoSize = true;
-            this.customScoresheetLabel.ForeColor = System.Drawing.Color.DarkRed;
-            this.customScoresheetLabel.Location = new System.Drawing.Point(209, 123);
-            this.customScoresheetLabel.Name = "customScoresheetLabel";
-            this.customScoresheetLabel.Size = new System.Drawing.Size(141, 13);
-            this.customScoresheetLabel.TabIndex = 13;
-            this.customScoresheetLabel.Text = "Custom Scoresheet Loaded!";
-            this.customScoresheetLabel.Visible = false;
+            this.customLogoFilenameOpenFileDialog.Filter = "All Supported Image Formats|*.jpg;*.jpeg;*.png;*.bmp|JPEG Files|*.jpg|PNG Files|*" +
+    ".png|BMP Files|*.bmp";
             // 
             // MainForm
             // 
@@ -406,18 +463,17 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "MainForm";
-            this.Text = "Scoresheet Management";
+            this.Text = "Beer Scoresheet Utility";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
+            this.printScoresheetsTabPage.ResumeLayout(false);
+            this.printScoresheetsTabPage.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numberOfScoresheetsInput)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.scoresheetReportsBindingSource)).EndInit();
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
+            this.processImagesTabPage.ResumeLayout(false);
+            this.processImagesTabPage.PerformLayout();
             this.tabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -432,15 +488,12 @@
         private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.FolderBrowserDialog scoresheetSplitOutputFolderBrowserDialog;
-        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage printScoresheetsTabPage;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox scoresheetComboBox;
-        private System.Windows.Forms.BindingSource scoresheetReportsBindingSource;
         private System.Windows.Forms.Button saveScoresheetLocationButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox scoresheetFileNameInput;
-        private System.Windows.Forms.Button saveScoresheetsButton;
-        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage processImagesTabPage;
         private System.Windows.Forms.TextBox scannedPdfFileNameTextBox;
         private System.Windows.Forms.TextBox folderSaveTextBox;
         private System.Windows.Forms.Button saveScoresheetFolderButton;
@@ -460,6 +513,14 @@
         private System.Windows.Forms.OpenFileDialog customScoresheetOpenFileDialog;
         private System.Windows.Forms.SaveFileDialog saveGeneratedScoresheetsFileDialog;
         private System.Windows.Forms.Label customScoresheetLabel;
+        private System.Windows.Forms.Button saveScoresheetReport;
+        private System.Windows.Forms.Button customLogoFilenameBrowse;
+        private System.Windows.Forms.TextBox customLogoFilenameInput;
+        private System.Windows.Forms.OpenFileDialog customLogoFilenameOpenFileDialog;
+        private System.Windows.Forms.TextBox imageFilenamePrefixInput;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.CheckBox includeLeadingZerosCheckbox;
+        private System.Windows.Forms.ToolTip defaultTooltip;
     }
 }
 

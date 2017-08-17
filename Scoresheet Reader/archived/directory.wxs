@@ -1,0 +1,1129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="TARGETDIR">
+            <Directory Id="dir39B22699688E51DCD8DCBB99A47E835B" Name="Debug">
+                <Component Id="cmp2BF91530158DD04D21E7D55E3B54C477" Guid="{ADE2BC20-BB69-4A23-B42E-48F33BBA8174}">
+                    <File Id="fil13467C258BE36C795213CB7C288C30D1" KeyPath="yes" Source="SourceDir\directory.wxs" />
+                </Component>
+                <Component Id="cmpD93EBFBD4EEF8E0ACB70B6A5BD4F20B0" Guid="{CA90D1AD-FC6D-4AA8-B3E1-FF9F55821735}">
+                    <File Id="fil311755343073C2B7B935DD045A6F0012" KeyPath="yes" Source="SourceDir\free3of9.ttf" />
+                </Component>
+                <Component Id="cmpA877A945F0B710C534A32388D2E5D239" Guid="{A38F7876-46A6-40D9-B49A-71CB6434A563}">
+                    <File Id="fil3253FC172D211095C155C7F4CDF13D55" KeyPath="yes" Source="SourceDir\GenericScoresheet.rdlc" />
+                </Component>
+                <Component Id="cmp323D92075837794C0471492BAEC744F7" Guid="{7F65F8CB-2D8B-4029-A061-A1099C842209}">
+                    <File Id="fil1A6831C7FC7C057A96BC32E9D9996551" KeyPath="yes" Source="SourceDir\itextsharp.dll" />
+                </Component>
+                <Component Id="cmpD2A3456B3540536E434DE8E6B1C5DA97" Guid="{3556A497-4294-41D7-B4A0-0D2BF729E663}">
+                    <File Id="filEC48C1A2B2CFFC2F7EA34A98219D839C" KeyPath="yes" Source="SourceDir\itextsharp.xml" />
+                </Component>
+                <Component Id="cmp83519C41E269536E654C015CFE768277" Guid="{ABB7A63F-6284-4C2E-9F7E-DB2126E2B058}">
+                    <File Id="fil1D88C24972484FBD5FE80A84A3BB7C99" KeyPath="yes" Source="SourceDir\Jot.dll" />
+                </Component>
+                <Component Id="cmpDE34D48852797FF08167FD950BDF26F5" Guid="{13699D20-0682-497C-A14E-872C1C0A3B6B}">
+                    <File Id="filCB63F2104CFE4723F92C1A6F599881C9" KeyPath="yes" Source="SourceDir\Jot.xml" />
+                </Component>
+                <Component Id="cmp8A3F372A96D62BB277F71A2763BCBA59" Guid="{7AD18926-4ABE-4E4E-982A-2F79AEDB905D}">
+                    <File Id="filA73CC6BCCB99F89EF0E82EF79E369C5D" KeyPath="yes" Source="SourceDir\Magick.NET-Q16-AnyCPU.dll" />
+                </Component>
+                <Component Id="cmp93B6EE9464ED345A24DE27B05614EBA4" Guid="{B4596B8D-3A76-49AC-BC9C-C11756A6D494}">
+                    <File Id="fil4E8CDCD066C3E13DF7BFB0BE39E39525" KeyPath="yes" Source="SourceDir\Magick.NET-Q16-AnyCPU.xml" />
+                </Component>
+                <Component Id="cmp312EFD85D55F186E7F3958F05F006E64" Guid="{A556634E-E037-40D3-ABEC-821E07450E38}">
+                    <File Id="filA03F401E7D9EB739E1E4D952483DF7EA" KeyPath="yes" Source="SourceDir\Microsoft.ReportViewer.WinForms.dll" />
+                </Component>
+                <Component Id="cmp95BA741F0A84FC023AC45D3B73ECA766" Guid="{C89D5518-3066-47A3-B249-CEF4821721A5}">
+                    <File Id="fil3AB6455E4B4F02AC4C2CF1B39D6C4BA7" KeyPath="yes" Source="SourceDir\Microsoft.SqlServer.Types.dll" />
+                </Component>
+                <Component Id="cmp1EA75742196A10FF30F14DEE49B96795" Guid="{6EE2C55C-23A9-4C26-946C-A289883528BB}">
+                    <File Id="filA73AF48DE5075796F2DCBECBA256DB1F" KeyPath="yes" Source="SourceDir\Newtonsoft.Json.dll" />
+                </Component>
+                <Component Id="cmp1C6F1E8B3EE6638F19B2B6B60781C542" Guid="{BFE3DA2E-2715-423F-BA3C-4AC8B97B0137}">
+                    <File Id="fil7E66778347932BE65114795F21535359" KeyPath="yes" Source="SourceDir\Newtonsoft.Json.xml" />
+                </Component>
+                <Component Id="cmpCDC38C9F76B9DBCEE072B1DB2F24FDDA" Guid="{0FBF42BE-F754-4C67-9DB4-B3BCB345C54F}">
+                    <File Id="filEFF16F1B31404930A425E593FEE0D8CC" KeyPath="yes" Source="SourceDir\NLog.config" />
+                </Component>
+                <Component Id="cmp93C81AC46B70E4A7108E107CED95644C" Guid="{E5B05D2A-9FB7-45B0-AA50-2C95A1D68076}">
+                    <File Id="fil5EE522119F8F5423209EDEEAA36D1FF7" KeyPath="yes" Source="SourceDir\NLog.dll" />
+                </Component>
+                <Component Id="cmpB67B0422E7747E86EFFD22937B3EB17D" Guid="{1082F0D0-F145-4459-8361-23E142F0C426}">
+                    <File Id="filEF95FB1A86288CA538445D45DC46605A" KeyPath="yes" Source="SourceDir\NLog.xml" />
+                </Component>
+                <Component Id="cmpA3E18620086B88C79C011FB3069F06A5" Guid="{D535496F-BCAF-465F-90DB-5567FBC53039}">
+                    <File Id="filDC033FDF957EB21B826A265AD2A7AE25" KeyPath="yes" Source="SourceDir\Scoresheet Reader.exe" />
+                </Component>
+                <Component Id="cmp34CD5A012303F257B70EF2EAB677B746" Guid="{E721A031-E497-4D81-AD8B-6C938093C615}">
+                    <File Id="fil65F560E33AFAB309B82DEC636D382008" KeyPath="yes" Source="SourceDir\Scoresheet Reader.exe.config" />
+                </Component>
+                <Component Id="cmp5925A2A6E15BEFE1A30ECD43567AF06F" Guid="{800A72E2-B14A-4F23-86B0-3332EF7B91C2}">
+                    <File Id="fil17CB83002940CC1DCB29120A1BBFEA4E" KeyPath="yes" Source="SourceDir\Scoresheet Reader.pdb" />
+                </Component>
+                <Component Id="cmp0543973F0F2BEAFF7C54F3D2A9554965" Guid="{58A387E4-24AA-4383-BAA3-1845E2C96042}">
+                    <File Id="filA7F064B2D93B06DAF7F9E59ACA471D03" KeyPath="yes" Source="SourceDir\Scoresheet Reader.vshost.exe" />
+                </Component>
+                <Component Id="cmp0AB19263255E7C8BD2822EAD1DBA95CD" Guid="{E792B748-3181-4230-B679-EE76834884C6}">
+                    <File Id="fil7A296FFFDF0D16B8A1FB77C4DD0BC33B" KeyPath="yes" Source="SourceDir\Scoresheet Reader.vshost.exe.config" />
+                </Component>
+                <Component Id="cmp7C97C6B41343B20C295AF79C1752713F" Guid="{DE57D931-B013-47F0-9F15-D6D65A0F651F}">
+                    <File Id="fil8F5F08499C8FA0E1224ACD89FDB084D3" KeyPath="yes" Source="SourceDir\Scoresheet Reader.vshost.exe.manifest" />
+                </Component>
+                <Component Id="cmp0F1947D0A3D08E197FBFB3925D513146" Guid="{86B0397C-86AD-4B16-A4F8-5D961819449D}">
+                    <File Id="fil3D5500F1145F0F10F803F3C6C4DB3510" KeyPath="yes" Source="SourceDir\System.String[]" />
+                </Component>
+                <Component Id="cmp6E8B08CA70F1A2B8CA2F955106BC0745" Guid="{7747207E-E1F7-460D-957D-E2DF76E2FA78}">
+                    <Class Id="{0321F203-6317-32EC-8C12-723A52691845}" Context="InprocServer32" Description="ZXing.Common.EncodingOptions" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Common.EncodingOptions" Description="ZXing.Common.EncodingOptions" />
+                    </Class>
+                    <Class Id="{040C7606-9D3C-3E10-9A70-2C508FEB48AC}" Context="InprocServer32" Description="ZXing.Aztec.Internal.Decoder" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Aztec.Internal.Decoder" Description="ZXing.Aztec.Internal.Decoder" />
+                    </Class>
+                    <Class Id="{07BC0E0B-BD35-3652-B4E1-41341A5EC998}" Context="InprocServer32" Description="ZXing.OneD.EAN8Reader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.EAN8Reader" Description="ZXing.OneD.EAN8Reader" />
+                    </Class>
+                    <Class Id="{07C268CE-1AC4-36A3-8610-847D7885C553}" Context="InprocServer32" Description="ZXing.OneD.PlesseyWriter" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.PlesseyWriter" Description="ZXing.OneD.PlesseyWriter" />
+                    </Class>
+                    <Class Id="{084926E8-BB94-33DD-9F6C-C503B5AF867A}" Context="InprocServer32" Description="ZXing.OneD.Code128EncodingOptions" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.Code128EncodingOptions" Description="ZXing.OneD.Code128EncodingOptions" />
+                    </Class>
+                    <Class Id="{0E67EC2C-5EC6-37D8-B32B-B84F78C14ADB}" Context="InprocServer32" Description="ZXing.Common.DefaultGridSampler" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Common.DefaultGridSampler" Description="ZXing.Common.DefaultGridSampler" />
+                    </Class>
+                    <Class Id="{10A0C27B-E57E-33D4-A6E7-C05276EAD8F0}" Context="InprocServer32" Description="ZXing.OneD.UPCEWriter" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.UPCEWriter" Description="ZXing.OneD.UPCEWriter" />
+                    </Class>
+                    <Class Id="{127482E7-B221-3DD4-A96C-A028CEFEF8CF}" Context="InprocServer32" Description="ZXing.Aztec.Internal.AztecCode" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Aztec.Internal.AztecCode" Description="ZXing.Aztec.Internal.AztecCode" />
+                    </Class>
+                    <Class Id="{1422B6E7-1C62-3911-9400-4966EAFC2005}" Context="InprocServer32" Description="ZXing.OneD.MSIReader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.MSIReader" Description="ZXing.OneD.MSIReader" />
+                    </Class>
+                    <Class Id="{1AB5ED40-68D1-3AA6-A7AC-3BFF26A87309}" Context="InprocServer32" Description="ZXing.ResultPoint" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.ResultPoint" Description="ZXing.ResultPoint" />
+                    </Class>
+                    <Class Id="{1C958A25-4EA5-31D2-A72A-C240C9EB7360}" Context="InprocServer32" Description="ZXing.OneD.UPCAReader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.UPCAReader" Description="ZXing.OneD.UPCAReader" />
+                    </Class>
+                    <Class Id="{1D128E66-00BA-37DD-BCC0-61BAA669F092}" Context="InprocServer32" Description="ZXing.OneD.Code93Reader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.Code93Reader" Description="ZXing.OneD.Code93Reader" />
+                    </Class>
+                    <Class Id="{1E3FEB96-230D-3124-AD59-166D688D07FE}" Context="InprocServer32" Description="ZXing.OneD.ITFWriter" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.ITFWriter" Description="ZXing.OneD.ITFWriter" />
+                    </Class>
+                    <Class Id="{22D61F0E-8DAA-3AEF-BF0A-C78D38E1FCCE}" Context="InprocServer32" Description="ZXing.OneD.RSS.Expanded.RSSExpandedReader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.RSS.Expanded.RSSExpandedReader" Description="ZXing.OneD.RSS.Expanded.RSSExpandedReader" />
+                    </Class>
+                    <Class Id="{23B44BF5-47EE-3B0D-8B47-E30E2792C3C4}" Context="InprocServer32" Description="ZXing.Maxicode.Internal.Decoder" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Maxicode.Internal.Decoder" Description="ZXing.Maxicode.Internal.Decoder" />
+                    </Class>
+                    <Class Id="{243288AF-4262-3256-9922-ECEFFB8BD712}" Context="InprocServer32" Description="ZXing.QrCode.Internal.Decoder" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.QrCode.Internal.Decoder" Description="ZXing.QrCode.Internal.Decoder" />
+                    </Class>
+                    <Class Id="{273F2D48-F4C9-39FF-A210-85BDA4E25185}" Context="InprocServer32" Description="ZXing.Maxicode.MaxiCodeReader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Maxicode.MaxiCodeReader" Description="ZXing.Maxicode.MaxiCodeReader" />
+                    </Class>
+                    <Class Id="{2984434E-B1BC-3E24-91F1-57215EBE36FC}" Context="InprocServer32" Description="ZXing.OneD.EAN8Writer" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.EAN8Writer" Description="ZXing.OneD.EAN8Writer" />
+                    </Class>
+                    <Class Id="{3077C84B-0763-387A-8C3A-36E630972FAD}" Context="InprocServer32" Description="ZXing.Aztec.AztecWriter" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Aztec.AztecWriter" Description="ZXing.Aztec.AztecWriter" />
+                    </Class>
+                    <Class Id="{353FFB4A-4131-3A9B-B0C3-603EDD432BC4}" Context="InprocServer32" Description="ZXing.BarcodeWriter" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.BarcodeWriter" Description="ZXing.BarcodeWriter" />
+                    </Class>
+                    <Class Id="{3DFAAD97-82EF-3398-95AA-94B5BB993E67}" Context="InprocServer32" Description="ZXing.OneD.UPCAWriter" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.UPCAWriter" Description="ZXing.OneD.UPCAWriter" />
+                    </Class>
+                    <Class Id="{4658B2A9-2B55-34C8-B9BC-4649B9A62BEE}" Context="InprocServer32" Description="ZXing.Multi.QrCode.QRCodeMultiReader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Multi.QrCode.QRCodeMultiReader" Description="ZXing.Multi.QrCode.QRCodeMultiReader" />
+                    </Class>
+                    <Class Id="{4BAFA8E2-8448-3CA9-9D3A-BEEE50F887A6}" Context="InprocServer32" Description="ZXing.Rendering.SvgRenderer+SvgImage" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Rendering.SvgRenderer+SvgImage" Description="ZXing.Rendering.SvgRenderer+SvgImage" />
+                    </Class>
+                    <Class Id="{4E6AFFE7-4167-3E46-95EC-C965087CDB6A}" Context="InprocServer32" Description="ZXing.Client.Result.ExpandedProductResultParser" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Client.Result.ExpandedProductResultParser" Description="ZXing.Client.Result.ExpandedProductResultParser" />
+                    </Class>
+                    <Class Id="{4EAC6B4F-4705-30CE-A3C2-6BEFD3E726F7}" Context="InprocServer32" Description="ZXing.BarcodeReader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.BarcodeReader" Description="ZXing.BarcodeReader" />
+                    </Class>
+                    <Class Id="{4EF41BEB-BFFF-3091-9071-8F3A034D7834}" Context="InprocServer32" Description="ZXing.OneD.Code128Reader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.Code128Reader" Description="ZXing.OneD.Code128Reader" />
+                    </Class>
+                    <Class Id="{53237262-2436-393D-BFFE-8E2F8CC8A7FD}" Context="InprocServer32" Description="ZXing.OneD.UPCEReader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.UPCEReader" Description="ZXing.OneD.UPCEReader" />
+                    </Class>
+                    <Class Id="{5490898F-FB1C-371C-8A72-009F99897269}" Context="InprocServer32" Description="ZXing.PDF417.Internal.Detector" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.PDF417.Internal.Detector" Description="ZXing.PDF417.Internal.Detector" />
+                    </Class>
+                    <Class Id="{62DB1783-2FCC-3BEB-953A-B96C3F7FE5F5}" Context="InprocServer32" Description="ZXing.BarcodeWriterSvg" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.BarcodeWriterSvg" Description="ZXing.BarcodeWriterSvg" />
+                    </Class>
+                    <Class Id="{636D9D5D-DECD-37F1-AE17-6680B0E6AF5F}" Context="InprocServer32" Description="ZXing.MultiFormatReader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.MultiFormatReader" Description="ZXing.MultiFormatReader" />
+                    </Class>
+                    <Class Id="{637A6839-7631-36DD-A1E4-61D4541455CF}" Context="InprocServer32" Description="ZXing.QrCode.QRCodeWriter" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.QrCode.QRCodeWriter" Description="ZXing.QrCode.QRCodeWriter" />
+                    </Class>
+                    <Class Id="{64D1F399-4AB0-3245-9E28-D8463C7EFB9E}" Context="InprocServer32" Description="ZXing.Client.Result.ISBNResultParser" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Client.Result.ISBNResultParser" Description="ZXing.Client.Result.ISBNResultParser" />
+                    </Class>
+                    <Class Id="{672D7A3A-1249-3872-88C6-2826A1DC9E60}" Context="InprocServer32" Description="ZXing.PDF417.PDF417Writer" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.PDF417.PDF417Writer" Description="ZXing.PDF417.PDF417Writer" />
+                    </Class>
+                    <Class Id="{6C3A9FB8-BDE9-305C-ACA1-FE7DEDCBF200}" Context="InprocServer32" Description="ZXing.Client.Result.VINResultParser" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Client.Result.VINResultParser" Description="ZXing.Client.Result.VINResultParser" />
+                    </Class>
+                    <Class Id="{6DD01452-6BF3-32B7-A04D-C84F962DA2AE}" Context="InprocServer32" Description="ZXing.Datamatrix.Internal.Decoder" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Datamatrix.Internal.Decoder" Description="ZXing.Datamatrix.Internal.Decoder" />
+                    </Class>
+                    <Class Id="{75478075-54C2-378B-B8F0-C66536E7DE53}" Context="InprocServer32" Description="ZXing.Rendering.BitmapRenderer" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Rendering.BitmapRenderer" Description="ZXing.Rendering.BitmapRenderer" />
+                    </Class>
+                    <Class Id="{779B4C8C-98D5-3DA8-B1BE-2EC6F7D648AD}" Context="InprocServer32" Description="ZXing.OneD.EAN13Reader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.EAN13Reader" Description="ZXing.OneD.EAN13Reader" />
+                    </Class>
+                    <Class Id="{7B7C110F-7534-3000-89DF-B1766CB47B06}" Context="InprocServer32" Description="ZXing.OneD.CodaBarReader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.CodaBarReader" Description="ZXing.OneD.CodaBarReader" />
+                    </Class>
+                    <Class Id="{7C0220EC-B05C-3563-9B24-2F01D9BD7A55}" Context="InprocServer32" Description="ZXing.BarcodeWriterPixelData" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.BarcodeWriterPixelData" Description="ZXing.BarcodeWriterPixelData" />
+                    </Class>
+                    <Class Id="{81680D8E-40C7-3CBB-970A-E61F7B652A5B}" Context="InprocServer32" Description="ZXing.OneD.Code39Writer" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.Code39Writer" Description="ZXing.OneD.Code39Writer" />
+                    </Class>
+                    <Class Id="{839CFBE0-9BCD-3CC9-BD01-37F8C730BC15}" Context="InprocServer32" Description="ZXing.Client.Result.SMTPResultParser" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Client.Result.SMTPResultParser" Description="ZXing.Client.Result.SMTPResultParser" />
+                    </Class>
+                    <Class Id="{87E2AD4B-71E2-362E-B0B5-5C9A541D6474}" Context="InprocServer32" Description="ZXing.OneD.EAN13Writer" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.EAN13Writer" Description="ZXing.OneD.EAN13Writer" />
+                    </Class>
+                    <Class Id="{88A19FF4-577C-3B5F-8FBE-BBA6029F829F}" Context="InprocServer32" Description="ZXing.Aztec.AztecReader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Aztec.AztecReader" Description="ZXing.Aztec.AztecReader" />
+                    </Class>
+                    <Class Id="{9647421F-03CD-34EC-B6DE-90E79D7F120A}" Context="InprocServer32" Description="ZXing.Datamatrix.Encoder.Encodation" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Datamatrix.Encoder.Encodation" Description="ZXing.Datamatrix.Encoder.Encodation" />
+                    </Class>
+                    <Class Id="{98F946F0-469F-3F27-961C-3C3F3D0CAA3F}" Context="InprocServer32" Description="ZXing.Client.Result.SMSTOMMSTOResultParser" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Client.Result.SMSTOMMSTOResultParser" Description="ZXing.Client.Result.SMSTOMMSTOResultParser" />
+                    </Class>
+                    <Class Id="{9B32E589-1E87-3148-98B4-2FB1DD2F8196}" Context="InprocServer32" Description="ZXing.WriterException" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.WriterException" Description="ZXing.WriterException" />
+                    </Class>
+                    <Class Id="{A32F1CB8-B2A7-3DFB-875C-03B21312220A}" Context="InprocServer32" Description="ZXing.Datamatrix.DataMatrixWriter" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Datamatrix.DataMatrixWriter" Description="ZXing.Datamatrix.DataMatrixWriter" />
+                    </Class>
+                    <Class Id="{A5FE524D-D5FF-37E8-8172-4C607D1D01EE}" Context="InprocServer32" Description="ZXing.QrCode.Internal.Mode+Names" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.QrCode.Internal.Mode+Names" Description="ZXing.QrCode.Internal.Mode+Names" />
+                    </Class>
+                    <Class Id="{AB66AF76-5021-3458-AB11-B0C0CDE6E81E}" Context="InprocServer32" Description="ZXing.QrCode.QrCodeEncodingOptions" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.QrCode.QrCodeEncodingOptions" Description="ZXing.QrCode.QrCodeEncodingOptions" />
+                    </Class>
+                    <Class Id="{B20F5063-DB2B-35F0-90B9-997D983788C5}" Context="InprocServer32" Description="ZXing.Common.BitArray" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Common.BitArray" Description="ZXing.Common.BitArray" />
+                    </Class>
+                    <Class Id="{B6146677-1307-31A3-84D2-89B08EE4BC1E}" Context="InprocServer32" Description="ZXing.PDF417.PDF417Reader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.PDF417.PDF417Reader" Description="ZXing.PDF417.PDF417Reader" />
+                    </Class>
+                    <Class Id="{B61DDAEF-51B2-3864-B733-27F8FFECC541}" Context="InprocServer32" Description="ZXing.OneD.Code39Reader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.Code39Reader" Description="ZXing.OneD.Code39Reader" />
+                    </Class>
+                    <Class Id="{B64651F5-9E86-3F3C-8DEA-96393A6E3A79}" Context="InprocServer32" Description="ZXing.OneD.ITFReader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.ITFReader" Description="ZXing.OneD.ITFReader" />
+                    </Class>
+                    <Class Id="{B76B7BC2-8ACE-3993-BA9E-ADDB1690F3A3}" Context="InprocServer32" Description="ZXing.OneD.CodaBarWriter" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.CodaBarWriter" Description="ZXing.OneD.CodaBarWriter" />
+                    </Class>
+                    <Class Id="{B7FE1B1B-8177-315B-9530-AA6D54E728AC}" Context="InprocServer32" Description="ZXing.OneD.MSIWriter" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.MSIWriter" Description="ZXing.OneD.MSIWriter" />
+                    </Class>
+                    <Class Id="{BD7CD2FC-6EAE-33BC-81A6-993C741ADBB4}" Context="InprocServer32" Description="ZXing.PDF417.Internal.EC.ErrorCorrection" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.PDF417.Internal.EC.ErrorCorrection" Description="ZXing.PDF417.Internal.EC.ErrorCorrection" />
+                    </Class>
+                    <Class Id="{C04B3543-CA63-31BB-B547-C11A23E01029}" Context="InprocServer32" Description="ZXing.OneD.Code93Writer" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.Code93Writer" Description="ZXing.OneD.Code93Writer" />
+                    </Class>
+                    <Class Id="{C2202DD2-5F8B-3D7A-AEFE-6B495C46F257}" Context="InprocServer32" Description="ZXing.PDF417.PDF417ResultMetadata" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.PDF417.PDF417ResultMetadata" Description="ZXing.PDF417.PDF417ResultMetadata" />
+                    </Class>
+                    <Class Id="{C691D486-613E-30EA-B8C8-C44AA8606463}" Context="InprocServer32" Description="ZXing.PDF417.PDF417EncodingOptions" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.PDF417.PDF417EncodingOptions" Description="ZXing.PDF417.PDF417EncodingOptions" />
+                    </Class>
+                    <Class Id="{C771E0D2-04F0-3AD2-A392-A77697E344ED}" Context="InprocServer32" Description="ZXing.Client.Result.WifiResultParser" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Client.Result.WifiResultParser" Description="ZXing.Client.Result.WifiResultParser" />
+                    </Class>
+                    <Class Id="{C80132AC-9970-3C16-80CF-C9D9681E27B6}" Context="InprocServer32" Description="ZXing.Datamatrix.DataMatrixReader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Datamatrix.DataMatrixReader" Description="ZXing.Datamatrix.DataMatrixReader" />
+                    </Class>
+                    <Class Id="{CB21DD01-D65B-3B7A-9642-AF4BEDB430E9}" Context="InprocServer32" Description="ZXing.Aztec.AztecEncodingOptions" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Aztec.AztecEncodingOptions" Description="ZXing.Aztec.AztecEncodingOptions" />
+                    </Class>
+                    <Class Id="{D25BF8B4-8706-335D-9D4D-CF48758D2DAA}" Context="InprocServer32" Description="ZXing.IMB.IMBReader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.IMB.IMBReader" Description="ZXing.IMB.IMBReader" />
+                    </Class>
+                    <Class Id="{D5BCBC70-D7FE-335C-A1A7-459C7D6B065D}" Context="InprocServer32" Description="ZXing.OneD.Code128Writer" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.Code128Writer" Description="ZXing.OneD.Code128Writer" />
+                    </Class>
+                    <Class Id="{DC168E30-768B-39BD-8151-BA7BD2C1D592}" Context="InprocServer32" Description="ZXing.Rendering.SvgRenderer" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Rendering.SvgRenderer" Description="ZXing.Rendering.SvgRenderer" />
+                    </Class>
+                    <Class Id="{E24D696D-E664-3D9D-A068-1B98388FDE67}" Context="InprocServer32" Description="ZXing.Rendering.PixelDataRenderer" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Rendering.PixelDataRenderer" Description="ZXing.Rendering.PixelDataRenderer" />
+                    </Class>
+                    <Class Id="{E4662395-AE74-306B-A25F-BA631D1B7261}" Context="InprocServer32" Description="ZXing.Datamatrix.DatamatrixEncodingOptions" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Datamatrix.DatamatrixEncodingOptions" Description="ZXing.Datamatrix.DatamatrixEncodingOptions" />
+                    </Class>
+                    <Class Id="{E59F8941-0394-321E-B2C9-EE08C049D054}" Context="InprocServer32" Description="ZXing.PDF417.Internal.BarcodeValue" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.PDF417.Internal.BarcodeValue" Description="ZXing.PDF417.Internal.BarcodeValue" />
+                    </Class>
+                    <Class Id="{E6455AC1-7E91-34E2-BEE5-688D6BA0B4DF}" Context="InprocServer32" Description="ZXing.QrCode.QRCodeReader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.QrCode.QRCodeReader" Description="ZXing.QrCode.QRCodeReader" />
+                    </Class>
+                    <Class Id="{E80C82D3-4E0C-335A-826C-1A120B529FAD}" Context="InprocServer32" Description="ZXing.OneD.RSS.RSS14Reader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.OneD.RSS.RSS14Reader" Description="ZXing.OneD.RSS.RSS14Reader" />
+                    </Class>
+                    <Class Id="{EE9A527A-F7EA-3D32-A8A3-D550675D15DA}" Context="InprocServer32" Description="ZXing.Common.DecodingOptions" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Common.DecodingOptions" Description="ZXing.Common.DecodingOptions" />
+                    </Class>
+                    <Class Id="{F66FD554-59DF-3738-BD53-0A3EC483441B}" Context="InprocServer32" Description="ZXing.MultiFormatWriter" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.MultiFormatWriter" Description="ZXing.MultiFormatWriter" />
+                    </Class>
+                    <Class Id="{F928B20B-D1FE-356D-A022-DAB3E5060F56}" Context="InprocServer32" Description="ZXing.QrCode.Internal.QRCode" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.QrCode.Internal.QRCode" Description="ZXing.QrCode.Internal.QRCode" />
+                    </Class>
+                    <File Id="fil0DB3CF1C96C7362BABA83D6ACEEAA89E" KeyPath="yes" Source="SourceDir\zxing.dll" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0321F203-6317-32EC-8C12-723A52691845}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0321F203-6317-32EC-8C12-723A52691845}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Common.EncodingOptions" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0321F203-6317-32EC-8C12-723A52691845}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0321F203-6317-32EC-8C12-723A52691845}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0321F203-6317-32EC-8C12-723A52691845}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0321F203-6317-32EC-8C12-723A52691845}\InprocServer32" Name="Class" Value="ZXing.Common.EncodingOptions" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0321F203-6317-32EC-8C12-723A52691845}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0321F203-6317-32EC-8C12-723A52691845}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0321F203-6317-32EC-8C12-723A52691845}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{040C7606-9D3C-3E10-9A70-2C508FEB48AC}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{040C7606-9D3C-3E10-9A70-2C508FEB48AC}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Aztec.Internal.Decoder" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{040C7606-9D3C-3E10-9A70-2C508FEB48AC}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{040C7606-9D3C-3E10-9A70-2C508FEB48AC}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{040C7606-9D3C-3E10-9A70-2C508FEB48AC}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{040C7606-9D3C-3E10-9A70-2C508FEB48AC}\InprocServer32" Name="Class" Value="ZXing.Aztec.Internal.Decoder" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{040C7606-9D3C-3E10-9A70-2C508FEB48AC}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{040C7606-9D3C-3E10-9A70-2C508FEB48AC}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{040C7606-9D3C-3E10-9A70-2C508FEB48AC}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{07BC0E0B-BD35-3652-B4E1-41341A5EC998}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{07BC0E0B-BD35-3652-B4E1-41341A5EC998}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.EAN8Reader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{07BC0E0B-BD35-3652-B4E1-41341A5EC998}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{07BC0E0B-BD35-3652-B4E1-41341A5EC998}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{07BC0E0B-BD35-3652-B4E1-41341A5EC998}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{07BC0E0B-BD35-3652-B4E1-41341A5EC998}\InprocServer32" Name="Class" Value="ZXing.OneD.EAN8Reader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{07BC0E0B-BD35-3652-B4E1-41341A5EC998}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{07BC0E0B-BD35-3652-B4E1-41341A5EC998}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{07BC0E0B-BD35-3652-B4E1-41341A5EC998}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{07C268CE-1AC4-36A3-8610-847D7885C553}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{07C268CE-1AC4-36A3-8610-847D7885C553}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.PlesseyWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{07C268CE-1AC4-36A3-8610-847D7885C553}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{07C268CE-1AC4-36A3-8610-847D7885C553}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{07C268CE-1AC4-36A3-8610-847D7885C553}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{07C268CE-1AC4-36A3-8610-847D7885C553}\InprocServer32" Name="Class" Value="ZXing.OneD.PlesseyWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{07C268CE-1AC4-36A3-8610-847D7885C553}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{07C268CE-1AC4-36A3-8610-847D7885C553}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{07C268CE-1AC4-36A3-8610-847D7885C553}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{084926E8-BB94-33DD-9F6C-C503B5AF867A}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{084926E8-BB94-33DD-9F6C-C503B5AF867A}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.Code128EncodingOptions" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{084926E8-BB94-33DD-9F6C-C503B5AF867A}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{084926E8-BB94-33DD-9F6C-C503B5AF867A}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{084926E8-BB94-33DD-9F6C-C503B5AF867A}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{084926E8-BB94-33DD-9F6C-C503B5AF867A}\InprocServer32" Name="Class" Value="ZXing.OneD.Code128EncodingOptions" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{084926E8-BB94-33DD-9F6C-C503B5AF867A}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{084926E8-BB94-33DD-9F6C-C503B5AF867A}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{084926E8-BB94-33DD-9F6C-C503B5AF867A}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0E67EC2C-5EC6-37D8-B32B-B84F78C14ADB}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0E67EC2C-5EC6-37D8-B32B-B84F78C14ADB}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Common.DefaultGridSampler" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0E67EC2C-5EC6-37D8-B32B-B84F78C14ADB}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0E67EC2C-5EC6-37D8-B32B-B84F78C14ADB}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0E67EC2C-5EC6-37D8-B32B-B84F78C14ADB}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0E67EC2C-5EC6-37D8-B32B-B84F78C14ADB}\InprocServer32" Name="Class" Value="ZXing.Common.DefaultGridSampler" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0E67EC2C-5EC6-37D8-B32B-B84F78C14ADB}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0E67EC2C-5EC6-37D8-B32B-B84F78C14ADB}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0E67EC2C-5EC6-37D8-B32B-B84F78C14ADB}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{10A0C27B-E57E-33D4-A6E7-C05276EAD8F0}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{10A0C27B-E57E-33D4-A6E7-C05276EAD8F0}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.UPCEWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{10A0C27B-E57E-33D4-A6E7-C05276EAD8F0}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{10A0C27B-E57E-33D4-A6E7-C05276EAD8F0}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{10A0C27B-E57E-33D4-A6E7-C05276EAD8F0}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{10A0C27B-E57E-33D4-A6E7-C05276EAD8F0}\InprocServer32" Name="Class" Value="ZXing.OneD.UPCEWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{10A0C27B-E57E-33D4-A6E7-C05276EAD8F0}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{10A0C27B-E57E-33D4-A6E7-C05276EAD8F0}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{10A0C27B-E57E-33D4-A6E7-C05276EAD8F0}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{127482E7-B221-3DD4-A96C-A028CEFEF8CF}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{127482E7-B221-3DD4-A96C-A028CEFEF8CF}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Aztec.Internal.AztecCode" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{127482E7-B221-3DD4-A96C-A028CEFEF8CF}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{127482E7-B221-3DD4-A96C-A028CEFEF8CF}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{127482E7-B221-3DD4-A96C-A028CEFEF8CF}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{127482E7-B221-3DD4-A96C-A028CEFEF8CF}\InprocServer32" Name="Class" Value="ZXing.Aztec.Internal.AztecCode" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{127482E7-B221-3DD4-A96C-A028CEFEF8CF}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{127482E7-B221-3DD4-A96C-A028CEFEF8CF}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{127482E7-B221-3DD4-A96C-A028CEFEF8CF}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1422B6E7-1C62-3911-9400-4966EAFC2005}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1422B6E7-1C62-3911-9400-4966EAFC2005}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.MSIReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1422B6E7-1C62-3911-9400-4966EAFC2005}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1422B6E7-1C62-3911-9400-4966EAFC2005}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1422B6E7-1C62-3911-9400-4966EAFC2005}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1422B6E7-1C62-3911-9400-4966EAFC2005}\InprocServer32" Name="Class" Value="ZXing.OneD.MSIReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1422B6E7-1C62-3911-9400-4966EAFC2005}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1422B6E7-1C62-3911-9400-4966EAFC2005}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1422B6E7-1C62-3911-9400-4966EAFC2005}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1AB5ED40-68D1-3AA6-A7AC-3BFF26A87309}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1AB5ED40-68D1-3AA6-A7AC-3BFF26A87309}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.ResultPoint" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1AB5ED40-68D1-3AA6-A7AC-3BFF26A87309}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1AB5ED40-68D1-3AA6-A7AC-3BFF26A87309}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1AB5ED40-68D1-3AA6-A7AC-3BFF26A87309}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1AB5ED40-68D1-3AA6-A7AC-3BFF26A87309}\InprocServer32" Name="Class" Value="ZXing.ResultPoint" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1AB5ED40-68D1-3AA6-A7AC-3BFF26A87309}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1AB5ED40-68D1-3AA6-A7AC-3BFF26A87309}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1AB5ED40-68D1-3AA6-A7AC-3BFF26A87309}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1C958A25-4EA5-31D2-A72A-C240C9EB7360}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1C958A25-4EA5-31D2-A72A-C240C9EB7360}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.UPCAReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1C958A25-4EA5-31D2-A72A-C240C9EB7360}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1C958A25-4EA5-31D2-A72A-C240C9EB7360}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1C958A25-4EA5-31D2-A72A-C240C9EB7360}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1C958A25-4EA5-31D2-A72A-C240C9EB7360}\InprocServer32" Name="Class" Value="ZXing.OneD.UPCAReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1C958A25-4EA5-31D2-A72A-C240C9EB7360}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1C958A25-4EA5-31D2-A72A-C240C9EB7360}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1C958A25-4EA5-31D2-A72A-C240C9EB7360}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1D128E66-00BA-37DD-BCC0-61BAA669F092}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1D128E66-00BA-37DD-BCC0-61BAA669F092}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.Code93Reader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1D128E66-00BA-37DD-BCC0-61BAA669F092}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1D128E66-00BA-37DD-BCC0-61BAA669F092}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1D128E66-00BA-37DD-BCC0-61BAA669F092}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1D128E66-00BA-37DD-BCC0-61BAA669F092}\InprocServer32" Name="Class" Value="ZXing.OneD.Code93Reader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1D128E66-00BA-37DD-BCC0-61BAA669F092}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1D128E66-00BA-37DD-BCC0-61BAA669F092}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1D128E66-00BA-37DD-BCC0-61BAA669F092}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1E3FEB96-230D-3124-AD59-166D688D07FE}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1E3FEB96-230D-3124-AD59-166D688D07FE}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.ITFWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1E3FEB96-230D-3124-AD59-166D688D07FE}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1E3FEB96-230D-3124-AD59-166D688D07FE}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1E3FEB96-230D-3124-AD59-166D688D07FE}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1E3FEB96-230D-3124-AD59-166D688D07FE}\InprocServer32" Name="Class" Value="ZXing.OneD.ITFWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1E3FEB96-230D-3124-AD59-166D688D07FE}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1E3FEB96-230D-3124-AD59-166D688D07FE}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{1E3FEB96-230D-3124-AD59-166D688D07FE}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{22D61F0E-8DAA-3AEF-BF0A-C78D38E1FCCE}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{22D61F0E-8DAA-3AEF-BF0A-C78D38E1FCCE}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.RSS.Expanded.RSSExpandedReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{22D61F0E-8DAA-3AEF-BF0A-C78D38E1FCCE}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{22D61F0E-8DAA-3AEF-BF0A-C78D38E1FCCE}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{22D61F0E-8DAA-3AEF-BF0A-C78D38E1FCCE}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{22D61F0E-8DAA-3AEF-BF0A-C78D38E1FCCE}\InprocServer32" Name="Class" Value="ZXing.OneD.RSS.Expanded.RSSExpandedReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{22D61F0E-8DAA-3AEF-BF0A-C78D38E1FCCE}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{22D61F0E-8DAA-3AEF-BF0A-C78D38E1FCCE}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{22D61F0E-8DAA-3AEF-BF0A-C78D38E1FCCE}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{23B44BF5-47EE-3B0D-8B47-E30E2792C3C4}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{23B44BF5-47EE-3B0D-8B47-E30E2792C3C4}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Maxicode.Internal.Decoder" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{23B44BF5-47EE-3B0D-8B47-E30E2792C3C4}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{23B44BF5-47EE-3B0D-8B47-E30E2792C3C4}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{23B44BF5-47EE-3B0D-8B47-E30E2792C3C4}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{23B44BF5-47EE-3B0D-8B47-E30E2792C3C4}\InprocServer32" Name="Class" Value="ZXing.Maxicode.Internal.Decoder" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{23B44BF5-47EE-3B0D-8B47-E30E2792C3C4}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{23B44BF5-47EE-3B0D-8B47-E30E2792C3C4}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{23B44BF5-47EE-3B0D-8B47-E30E2792C3C4}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{243288AF-4262-3256-9922-ECEFFB8BD712}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{243288AF-4262-3256-9922-ECEFFB8BD712}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.QrCode.Internal.Decoder" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{243288AF-4262-3256-9922-ECEFFB8BD712}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{243288AF-4262-3256-9922-ECEFFB8BD712}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{243288AF-4262-3256-9922-ECEFFB8BD712}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{243288AF-4262-3256-9922-ECEFFB8BD712}\InprocServer32" Name="Class" Value="ZXing.QrCode.Internal.Decoder" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{243288AF-4262-3256-9922-ECEFFB8BD712}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{243288AF-4262-3256-9922-ECEFFB8BD712}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{243288AF-4262-3256-9922-ECEFFB8BD712}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{273F2D48-F4C9-39FF-A210-85BDA4E25185}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{273F2D48-F4C9-39FF-A210-85BDA4E25185}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Maxicode.MaxiCodeReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{273F2D48-F4C9-39FF-A210-85BDA4E25185}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{273F2D48-F4C9-39FF-A210-85BDA4E25185}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{273F2D48-F4C9-39FF-A210-85BDA4E25185}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{273F2D48-F4C9-39FF-A210-85BDA4E25185}\InprocServer32" Name="Class" Value="ZXing.Maxicode.MaxiCodeReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{273F2D48-F4C9-39FF-A210-85BDA4E25185}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{273F2D48-F4C9-39FF-A210-85BDA4E25185}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{273F2D48-F4C9-39FF-A210-85BDA4E25185}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{2984434E-B1BC-3E24-91F1-57215EBE36FC}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{2984434E-B1BC-3E24-91F1-57215EBE36FC}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.EAN8Writer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{2984434E-B1BC-3E24-91F1-57215EBE36FC}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{2984434E-B1BC-3E24-91F1-57215EBE36FC}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{2984434E-B1BC-3E24-91F1-57215EBE36FC}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{2984434E-B1BC-3E24-91F1-57215EBE36FC}\InprocServer32" Name="Class" Value="ZXing.OneD.EAN8Writer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{2984434E-B1BC-3E24-91F1-57215EBE36FC}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{2984434E-B1BC-3E24-91F1-57215EBE36FC}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{2984434E-B1BC-3E24-91F1-57215EBE36FC}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{3077C84B-0763-387A-8C3A-36E630972FAD}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{3077C84B-0763-387A-8C3A-36E630972FAD}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Aztec.AztecWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{3077C84B-0763-387A-8C3A-36E630972FAD}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{3077C84B-0763-387A-8C3A-36E630972FAD}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{3077C84B-0763-387A-8C3A-36E630972FAD}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{3077C84B-0763-387A-8C3A-36E630972FAD}\InprocServer32" Name="Class" Value="ZXing.Aztec.AztecWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{3077C84B-0763-387A-8C3A-36E630972FAD}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{3077C84B-0763-387A-8C3A-36E630972FAD}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{3077C84B-0763-387A-8C3A-36E630972FAD}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{353FFB4A-4131-3A9B-B0C3-603EDD432BC4}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{353FFB4A-4131-3A9B-B0C3-603EDD432BC4}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.BarcodeWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{353FFB4A-4131-3A9B-B0C3-603EDD432BC4}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{353FFB4A-4131-3A9B-B0C3-603EDD432BC4}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{353FFB4A-4131-3A9B-B0C3-603EDD432BC4}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{353FFB4A-4131-3A9B-B0C3-603EDD432BC4}\InprocServer32" Name="Class" Value="ZXing.BarcodeWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{353FFB4A-4131-3A9B-B0C3-603EDD432BC4}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{353FFB4A-4131-3A9B-B0C3-603EDD432BC4}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{353FFB4A-4131-3A9B-B0C3-603EDD432BC4}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{3DFAAD97-82EF-3398-95AA-94B5BB993E67}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{3DFAAD97-82EF-3398-95AA-94B5BB993E67}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.UPCAWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{3DFAAD97-82EF-3398-95AA-94B5BB993E67}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{3DFAAD97-82EF-3398-95AA-94B5BB993E67}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{3DFAAD97-82EF-3398-95AA-94B5BB993E67}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{3DFAAD97-82EF-3398-95AA-94B5BB993E67}\InprocServer32" Name="Class" Value="ZXing.OneD.UPCAWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{3DFAAD97-82EF-3398-95AA-94B5BB993E67}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{3DFAAD97-82EF-3398-95AA-94B5BB993E67}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{3DFAAD97-82EF-3398-95AA-94B5BB993E67}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4658B2A9-2B55-34C8-B9BC-4649B9A62BEE}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4658B2A9-2B55-34C8-B9BC-4649B9A62BEE}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Multi.QrCode.QRCodeMultiReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4658B2A9-2B55-34C8-B9BC-4649B9A62BEE}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4658B2A9-2B55-34C8-B9BC-4649B9A62BEE}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4658B2A9-2B55-34C8-B9BC-4649B9A62BEE}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4658B2A9-2B55-34C8-B9BC-4649B9A62BEE}\InprocServer32" Name="Class" Value="ZXing.Multi.QrCode.QRCodeMultiReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4658B2A9-2B55-34C8-B9BC-4649B9A62BEE}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4658B2A9-2B55-34C8-B9BC-4649B9A62BEE}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4658B2A9-2B55-34C8-B9BC-4649B9A62BEE}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4BAFA8E2-8448-3CA9-9D3A-BEEE50F887A6}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4BAFA8E2-8448-3CA9-9D3A-BEEE50F887A6}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Rendering.SvgRenderer+SvgImage" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4BAFA8E2-8448-3CA9-9D3A-BEEE50F887A6}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4BAFA8E2-8448-3CA9-9D3A-BEEE50F887A6}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4BAFA8E2-8448-3CA9-9D3A-BEEE50F887A6}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4BAFA8E2-8448-3CA9-9D3A-BEEE50F887A6}\InprocServer32" Name="Class" Value="ZXing.Rendering.SvgRenderer+SvgImage" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4BAFA8E2-8448-3CA9-9D3A-BEEE50F887A6}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4BAFA8E2-8448-3CA9-9D3A-BEEE50F887A6}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4BAFA8E2-8448-3CA9-9D3A-BEEE50F887A6}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4E6AFFE7-4167-3E46-95EC-C965087CDB6A}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4E6AFFE7-4167-3E46-95EC-C965087CDB6A}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Client.Result.ExpandedProductResultParser" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4E6AFFE7-4167-3E46-95EC-C965087CDB6A}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4E6AFFE7-4167-3E46-95EC-C965087CDB6A}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4E6AFFE7-4167-3E46-95EC-C965087CDB6A}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4E6AFFE7-4167-3E46-95EC-C965087CDB6A}\InprocServer32" Name="Class" Value="ZXing.Client.Result.ExpandedProductResultParser" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4E6AFFE7-4167-3E46-95EC-C965087CDB6A}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4E6AFFE7-4167-3E46-95EC-C965087CDB6A}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4E6AFFE7-4167-3E46-95EC-C965087CDB6A}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4EAC6B4F-4705-30CE-A3C2-6BEFD3E726F7}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4EAC6B4F-4705-30CE-A3C2-6BEFD3E726F7}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.BarcodeReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4EAC6B4F-4705-30CE-A3C2-6BEFD3E726F7}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4EAC6B4F-4705-30CE-A3C2-6BEFD3E726F7}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4EAC6B4F-4705-30CE-A3C2-6BEFD3E726F7}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4EAC6B4F-4705-30CE-A3C2-6BEFD3E726F7}\InprocServer32" Name="Class" Value="ZXing.BarcodeReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4EAC6B4F-4705-30CE-A3C2-6BEFD3E726F7}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4EAC6B4F-4705-30CE-A3C2-6BEFD3E726F7}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4EAC6B4F-4705-30CE-A3C2-6BEFD3E726F7}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4EF41BEB-BFFF-3091-9071-8F3A034D7834}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4EF41BEB-BFFF-3091-9071-8F3A034D7834}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.Code128Reader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4EF41BEB-BFFF-3091-9071-8F3A034D7834}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4EF41BEB-BFFF-3091-9071-8F3A034D7834}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4EF41BEB-BFFF-3091-9071-8F3A034D7834}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4EF41BEB-BFFF-3091-9071-8F3A034D7834}\InprocServer32" Name="Class" Value="ZXing.OneD.Code128Reader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4EF41BEB-BFFF-3091-9071-8F3A034D7834}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4EF41BEB-BFFF-3091-9071-8F3A034D7834}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{4EF41BEB-BFFF-3091-9071-8F3A034D7834}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{53237262-2436-393D-BFFE-8E2F8CC8A7FD}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{53237262-2436-393D-BFFE-8E2F8CC8A7FD}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.UPCEReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{53237262-2436-393D-BFFE-8E2F8CC8A7FD}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{53237262-2436-393D-BFFE-8E2F8CC8A7FD}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{53237262-2436-393D-BFFE-8E2F8CC8A7FD}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{53237262-2436-393D-BFFE-8E2F8CC8A7FD}\InprocServer32" Name="Class" Value="ZXing.OneD.UPCEReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{53237262-2436-393D-BFFE-8E2F8CC8A7FD}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{53237262-2436-393D-BFFE-8E2F8CC8A7FD}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{53237262-2436-393D-BFFE-8E2F8CC8A7FD}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{5490898F-FB1C-371C-8A72-009F99897269}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{5490898F-FB1C-371C-8A72-009F99897269}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.PDF417.Internal.Detector" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{5490898F-FB1C-371C-8A72-009F99897269}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{5490898F-FB1C-371C-8A72-009F99897269}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{5490898F-FB1C-371C-8A72-009F99897269}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{5490898F-FB1C-371C-8A72-009F99897269}\InprocServer32" Name="Class" Value="ZXing.PDF417.Internal.Detector" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{5490898F-FB1C-371C-8A72-009F99897269}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{5490898F-FB1C-371C-8A72-009F99897269}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{5490898F-FB1C-371C-8A72-009F99897269}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{62DB1783-2FCC-3BEB-953A-B96C3F7FE5F5}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{62DB1783-2FCC-3BEB-953A-B96C3F7FE5F5}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.BarcodeWriterSvg" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{62DB1783-2FCC-3BEB-953A-B96C3F7FE5F5}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{62DB1783-2FCC-3BEB-953A-B96C3F7FE5F5}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{62DB1783-2FCC-3BEB-953A-B96C3F7FE5F5}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{62DB1783-2FCC-3BEB-953A-B96C3F7FE5F5}\InprocServer32" Name="Class" Value="ZXing.BarcodeWriterSvg" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{62DB1783-2FCC-3BEB-953A-B96C3F7FE5F5}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{62DB1783-2FCC-3BEB-953A-B96C3F7FE5F5}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{62DB1783-2FCC-3BEB-953A-B96C3F7FE5F5}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{636D9D5D-DECD-37F1-AE17-6680B0E6AF5F}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{636D9D5D-DECD-37F1-AE17-6680B0E6AF5F}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.MultiFormatReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{636D9D5D-DECD-37F1-AE17-6680B0E6AF5F}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{636D9D5D-DECD-37F1-AE17-6680B0E6AF5F}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{636D9D5D-DECD-37F1-AE17-6680B0E6AF5F}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{636D9D5D-DECD-37F1-AE17-6680B0E6AF5F}\InprocServer32" Name="Class" Value="ZXing.MultiFormatReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{636D9D5D-DECD-37F1-AE17-6680B0E6AF5F}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{636D9D5D-DECD-37F1-AE17-6680B0E6AF5F}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{636D9D5D-DECD-37F1-AE17-6680B0E6AF5F}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{637A6839-7631-36DD-A1E4-61D4541455CF}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{637A6839-7631-36DD-A1E4-61D4541455CF}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.QrCode.QRCodeWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{637A6839-7631-36DD-A1E4-61D4541455CF}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{637A6839-7631-36DD-A1E4-61D4541455CF}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{637A6839-7631-36DD-A1E4-61D4541455CF}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{637A6839-7631-36DD-A1E4-61D4541455CF}\InprocServer32" Name="Class" Value="ZXing.QrCode.QRCodeWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{637A6839-7631-36DD-A1E4-61D4541455CF}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{637A6839-7631-36DD-A1E4-61D4541455CF}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{637A6839-7631-36DD-A1E4-61D4541455CF}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{64D1F399-4AB0-3245-9E28-D8463C7EFB9E}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{64D1F399-4AB0-3245-9E28-D8463C7EFB9E}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Client.Result.ISBNResultParser" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{64D1F399-4AB0-3245-9E28-D8463C7EFB9E}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{64D1F399-4AB0-3245-9E28-D8463C7EFB9E}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{64D1F399-4AB0-3245-9E28-D8463C7EFB9E}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{64D1F399-4AB0-3245-9E28-D8463C7EFB9E}\InprocServer32" Name="Class" Value="ZXing.Client.Result.ISBNResultParser" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{64D1F399-4AB0-3245-9E28-D8463C7EFB9E}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{64D1F399-4AB0-3245-9E28-D8463C7EFB9E}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{64D1F399-4AB0-3245-9E28-D8463C7EFB9E}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{672D7A3A-1249-3872-88C6-2826A1DC9E60}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{672D7A3A-1249-3872-88C6-2826A1DC9E60}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.PDF417.PDF417Writer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{672D7A3A-1249-3872-88C6-2826A1DC9E60}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{672D7A3A-1249-3872-88C6-2826A1DC9E60}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{672D7A3A-1249-3872-88C6-2826A1DC9E60}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{672D7A3A-1249-3872-88C6-2826A1DC9E60}\InprocServer32" Name="Class" Value="ZXing.PDF417.PDF417Writer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{672D7A3A-1249-3872-88C6-2826A1DC9E60}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{672D7A3A-1249-3872-88C6-2826A1DC9E60}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{672D7A3A-1249-3872-88C6-2826A1DC9E60}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{6C3A9FB8-BDE9-305C-ACA1-FE7DEDCBF200}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{6C3A9FB8-BDE9-305C-ACA1-FE7DEDCBF200}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Client.Result.VINResultParser" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{6C3A9FB8-BDE9-305C-ACA1-FE7DEDCBF200}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{6C3A9FB8-BDE9-305C-ACA1-FE7DEDCBF200}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{6C3A9FB8-BDE9-305C-ACA1-FE7DEDCBF200}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{6C3A9FB8-BDE9-305C-ACA1-FE7DEDCBF200}\InprocServer32" Name="Class" Value="ZXing.Client.Result.VINResultParser" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{6C3A9FB8-BDE9-305C-ACA1-FE7DEDCBF200}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{6C3A9FB8-BDE9-305C-ACA1-FE7DEDCBF200}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{6C3A9FB8-BDE9-305C-ACA1-FE7DEDCBF200}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{6DD01452-6BF3-32B7-A04D-C84F962DA2AE}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{6DD01452-6BF3-32B7-A04D-C84F962DA2AE}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Datamatrix.Internal.Decoder" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{6DD01452-6BF3-32B7-A04D-C84F962DA2AE}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{6DD01452-6BF3-32B7-A04D-C84F962DA2AE}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{6DD01452-6BF3-32B7-A04D-C84F962DA2AE}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{6DD01452-6BF3-32B7-A04D-C84F962DA2AE}\InprocServer32" Name="Class" Value="ZXing.Datamatrix.Internal.Decoder" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{6DD01452-6BF3-32B7-A04D-C84F962DA2AE}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{6DD01452-6BF3-32B7-A04D-C84F962DA2AE}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{6DD01452-6BF3-32B7-A04D-C84F962DA2AE}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{75478075-54C2-378B-B8F0-C66536E7DE53}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{75478075-54C2-378B-B8F0-C66536E7DE53}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Rendering.BitmapRenderer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{75478075-54C2-378B-B8F0-C66536E7DE53}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{75478075-54C2-378B-B8F0-C66536E7DE53}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{75478075-54C2-378B-B8F0-C66536E7DE53}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{75478075-54C2-378B-B8F0-C66536E7DE53}\InprocServer32" Name="Class" Value="ZXing.Rendering.BitmapRenderer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{75478075-54C2-378B-B8F0-C66536E7DE53}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{75478075-54C2-378B-B8F0-C66536E7DE53}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{75478075-54C2-378B-B8F0-C66536E7DE53}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{779B4C8C-98D5-3DA8-B1BE-2EC6F7D648AD}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{779B4C8C-98D5-3DA8-B1BE-2EC6F7D648AD}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.EAN13Reader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{779B4C8C-98D5-3DA8-B1BE-2EC6F7D648AD}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{779B4C8C-98D5-3DA8-B1BE-2EC6F7D648AD}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{779B4C8C-98D5-3DA8-B1BE-2EC6F7D648AD}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{779B4C8C-98D5-3DA8-B1BE-2EC6F7D648AD}\InprocServer32" Name="Class" Value="ZXing.OneD.EAN13Reader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{779B4C8C-98D5-3DA8-B1BE-2EC6F7D648AD}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{779B4C8C-98D5-3DA8-B1BE-2EC6F7D648AD}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{779B4C8C-98D5-3DA8-B1BE-2EC6F7D648AD}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{7B7C110F-7534-3000-89DF-B1766CB47B06}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{7B7C110F-7534-3000-89DF-B1766CB47B06}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.CodaBarReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{7B7C110F-7534-3000-89DF-B1766CB47B06}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{7B7C110F-7534-3000-89DF-B1766CB47B06}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{7B7C110F-7534-3000-89DF-B1766CB47B06}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{7B7C110F-7534-3000-89DF-B1766CB47B06}\InprocServer32" Name="Class" Value="ZXing.OneD.CodaBarReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{7B7C110F-7534-3000-89DF-B1766CB47B06}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{7B7C110F-7534-3000-89DF-B1766CB47B06}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{7B7C110F-7534-3000-89DF-B1766CB47B06}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{7C0220EC-B05C-3563-9B24-2F01D9BD7A55}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{7C0220EC-B05C-3563-9B24-2F01D9BD7A55}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.BarcodeWriterPixelData" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{7C0220EC-B05C-3563-9B24-2F01D9BD7A55}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{7C0220EC-B05C-3563-9B24-2F01D9BD7A55}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{7C0220EC-B05C-3563-9B24-2F01D9BD7A55}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{7C0220EC-B05C-3563-9B24-2F01D9BD7A55}\InprocServer32" Name="Class" Value="ZXing.BarcodeWriterPixelData" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{7C0220EC-B05C-3563-9B24-2F01D9BD7A55}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{7C0220EC-B05C-3563-9B24-2F01D9BD7A55}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{7C0220EC-B05C-3563-9B24-2F01D9BD7A55}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{81680D8E-40C7-3CBB-970A-E61F7B652A5B}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{81680D8E-40C7-3CBB-970A-E61F7B652A5B}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.Code39Writer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{81680D8E-40C7-3CBB-970A-E61F7B652A5B}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{81680D8E-40C7-3CBB-970A-E61F7B652A5B}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{81680D8E-40C7-3CBB-970A-E61F7B652A5B}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{81680D8E-40C7-3CBB-970A-E61F7B652A5B}\InprocServer32" Name="Class" Value="ZXing.OneD.Code39Writer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{81680D8E-40C7-3CBB-970A-E61F7B652A5B}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{81680D8E-40C7-3CBB-970A-E61F7B652A5B}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{81680D8E-40C7-3CBB-970A-E61F7B652A5B}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{839CFBE0-9BCD-3CC9-BD01-37F8C730BC15}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{839CFBE0-9BCD-3CC9-BD01-37F8C730BC15}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Client.Result.SMTPResultParser" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{839CFBE0-9BCD-3CC9-BD01-37F8C730BC15}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{839CFBE0-9BCD-3CC9-BD01-37F8C730BC15}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{839CFBE0-9BCD-3CC9-BD01-37F8C730BC15}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{839CFBE0-9BCD-3CC9-BD01-37F8C730BC15}\InprocServer32" Name="Class" Value="ZXing.Client.Result.SMTPResultParser" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{839CFBE0-9BCD-3CC9-BD01-37F8C730BC15}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{839CFBE0-9BCD-3CC9-BD01-37F8C730BC15}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{839CFBE0-9BCD-3CC9-BD01-37F8C730BC15}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{87E2AD4B-71E2-362E-B0B5-5C9A541D6474}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{87E2AD4B-71E2-362E-B0B5-5C9A541D6474}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.EAN13Writer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{87E2AD4B-71E2-362E-B0B5-5C9A541D6474}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{87E2AD4B-71E2-362E-B0B5-5C9A541D6474}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{87E2AD4B-71E2-362E-B0B5-5C9A541D6474}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{87E2AD4B-71E2-362E-B0B5-5C9A541D6474}\InprocServer32" Name="Class" Value="ZXing.OneD.EAN13Writer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{87E2AD4B-71E2-362E-B0B5-5C9A541D6474}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{87E2AD4B-71E2-362E-B0B5-5C9A541D6474}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{87E2AD4B-71E2-362E-B0B5-5C9A541D6474}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{88A19FF4-577C-3B5F-8FBE-BBA6029F829F}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{88A19FF4-577C-3B5F-8FBE-BBA6029F829F}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Aztec.AztecReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{88A19FF4-577C-3B5F-8FBE-BBA6029F829F}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{88A19FF4-577C-3B5F-8FBE-BBA6029F829F}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{88A19FF4-577C-3B5F-8FBE-BBA6029F829F}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{88A19FF4-577C-3B5F-8FBE-BBA6029F829F}\InprocServer32" Name="Class" Value="ZXing.Aztec.AztecReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{88A19FF4-577C-3B5F-8FBE-BBA6029F829F}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{88A19FF4-577C-3B5F-8FBE-BBA6029F829F}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{88A19FF4-577C-3B5F-8FBE-BBA6029F829F}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{9647421F-03CD-34EC-B6DE-90E79D7F120A}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{9647421F-03CD-34EC-B6DE-90E79D7F120A}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Datamatrix.Encoder.Encodation" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{9647421F-03CD-34EC-B6DE-90E79D7F120A}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{9647421F-03CD-34EC-B6DE-90E79D7F120A}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{9647421F-03CD-34EC-B6DE-90E79D7F120A}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{9647421F-03CD-34EC-B6DE-90E79D7F120A}\InprocServer32" Name="Class" Value="ZXing.Datamatrix.Encoder.Encodation" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{9647421F-03CD-34EC-B6DE-90E79D7F120A}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{9647421F-03CD-34EC-B6DE-90E79D7F120A}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{9647421F-03CD-34EC-B6DE-90E79D7F120A}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{98F946F0-469F-3F27-961C-3C3F3D0CAA3F}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{98F946F0-469F-3F27-961C-3C3F3D0CAA3F}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Client.Result.SMSTOMMSTOResultParser" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{98F946F0-469F-3F27-961C-3C3F3D0CAA3F}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{98F946F0-469F-3F27-961C-3C3F3D0CAA3F}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{98F946F0-469F-3F27-961C-3C3F3D0CAA3F}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{98F946F0-469F-3F27-961C-3C3F3D0CAA3F}\InprocServer32" Name="Class" Value="ZXing.Client.Result.SMSTOMMSTOResultParser" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{98F946F0-469F-3F27-961C-3C3F3D0CAA3F}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{98F946F0-469F-3F27-961C-3C3F3D0CAA3F}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{98F946F0-469F-3F27-961C-3C3F3D0CAA3F}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{9B32E589-1E87-3148-98B4-2FB1DD2F8196}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{9B32E589-1E87-3148-98B4-2FB1DD2F8196}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.WriterException" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{9B32E589-1E87-3148-98B4-2FB1DD2F8196}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{9B32E589-1E87-3148-98B4-2FB1DD2F8196}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{9B32E589-1E87-3148-98B4-2FB1DD2F8196}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{9B32E589-1E87-3148-98B4-2FB1DD2F8196}\InprocServer32" Name="Class" Value="ZXing.WriterException" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{9B32E589-1E87-3148-98B4-2FB1DD2F8196}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{9B32E589-1E87-3148-98B4-2FB1DD2F8196}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{9B32E589-1E87-3148-98B4-2FB1DD2F8196}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{A32F1CB8-B2A7-3DFB-875C-03B21312220A}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{A32F1CB8-B2A7-3DFB-875C-03B21312220A}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Datamatrix.DataMatrixWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{A32F1CB8-B2A7-3DFB-875C-03B21312220A}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{A32F1CB8-B2A7-3DFB-875C-03B21312220A}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{A32F1CB8-B2A7-3DFB-875C-03B21312220A}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{A32F1CB8-B2A7-3DFB-875C-03B21312220A}\InprocServer32" Name="Class" Value="ZXing.Datamatrix.DataMatrixWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{A32F1CB8-B2A7-3DFB-875C-03B21312220A}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{A32F1CB8-B2A7-3DFB-875C-03B21312220A}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{A32F1CB8-B2A7-3DFB-875C-03B21312220A}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{A5FE524D-D5FF-37E8-8172-4C607D1D01EE}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{A5FE524D-D5FF-37E8-8172-4C607D1D01EE}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.QrCode.Internal.Mode+Names" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{A5FE524D-D5FF-37E8-8172-4C607D1D01EE}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{A5FE524D-D5FF-37E8-8172-4C607D1D01EE}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{A5FE524D-D5FF-37E8-8172-4C607D1D01EE}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{A5FE524D-D5FF-37E8-8172-4C607D1D01EE}\InprocServer32" Name="Class" Value="ZXing.QrCode.Internal.Mode+Names" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{A5FE524D-D5FF-37E8-8172-4C607D1D01EE}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{A5FE524D-D5FF-37E8-8172-4C607D1D01EE}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{A5FE524D-D5FF-37E8-8172-4C607D1D01EE}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{AB66AF76-5021-3458-AB11-B0C0CDE6E81E}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{AB66AF76-5021-3458-AB11-B0C0CDE6E81E}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.QrCode.QrCodeEncodingOptions" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{AB66AF76-5021-3458-AB11-B0C0CDE6E81E}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{AB66AF76-5021-3458-AB11-B0C0CDE6E81E}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{AB66AF76-5021-3458-AB11-B0C0CDE6E81E}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{AB66AF76-5021-3458-AB11-B0C0CDE6E81E}\InprocServer32" Name="Class" Value="ZXing.QrCode.QrCodeEncodingOptions" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{AB66AF76-5021-3458-AB11-B0C0CDE6E81E}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{AB66AF76-5021-3458-AB11-B0C0CDE6E81E}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{AB66AF76-5021-3458-AB11-B0C0CDE6E81E}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B20F5063-DB2B-35F0-90B9-997D983788C5}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B20F5063-DB2B-35F0-90B9-997D983788C5}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Common.BitArray" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B20F5063-DB2B-35F0-90B9-997D983788C5}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B20F5063-DB2B-35F0-90B9-997D983788C5}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B20F5063-DB2B-35F0-90B9-997D983788C5}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B20F5063-DB2B-35F0-90B9-997D983788C5}\InprocServer32" Name="Class" Value="ZXing.Common.BitArray" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B20F5063-DB2B-35F0-90B9-997D983788C5}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B20F5063-DB2B-35F0-90B9-997D983788C5}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B20F5063-DB2B-35F0-90B9-997D983788C5}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B6146677-1307-31A3-84D2-89B08EE4BC1E}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B6146677-1307-31A3-84D2-89B08EE4BC1E}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.PDF417.PDF417Reader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B6146677-1307-31A3-84D2-89B08EE4BC1E}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B6146677-1307-31A3-84D2-89B08EE4BC1E}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B6146677-1307-31A3-84D2-89B08EE4BC1E}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B6146677-1307-31A3-84D2-89B08EE4BC1E}\InprocServer32" Name="Class" Value="ZXing.PDF417.PDF417Reader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B6146677-1307-31A3-84D2-89B08EE4BC1E}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B6146677-1307-31A3-84D2-89B08EE4BC1E}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B6146677-1307-31A3-84D2-89B08EE4BC1E}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B61DDAEF-51B2-3864-B733-27F8FFECC541}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B61DDAEF-51B2-3864-B733-27F8FFECC541}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.Code39Reader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B61DDAEF-51B2-3864-B733-27F8FFECC541}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B61DDAEF-51B2-3864-B733-27F8FFECC541}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B61DDAEF-51B2-3864-B733-27F8FFECC541}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B61DDAEF-51B2-3864-B733-27F8FFECC541}\InprocServer32" Name="Class" Value="ZXing.OneD.Code39Reader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B61DDAEF-51B2-3864-B733-27F8FFECC541}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B61DDAEF-51B2-3864-B733-27F8FFECC541}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B61DDAEF-51B2-3864-B733-27F8FFECC541}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B64651F5-9E86-3F3C-8DEA-96393A6E3A79}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B64651F5-9E86-3F3C-8DEA-96393A6E3A79}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.ITFReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B64651F5-9E86-3F3C-8DEA-96393A6E3A79}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B64651F5-9E86-3F3C-8DEA-96393A6E3A79}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B64651F5-9E86-3F3C-8DEA-96393A6E3A79}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B64651F5-9E86-3F3C-8DEA-96393A6E3A79}\InprocServer32" Name="Class" Value="ZXing.OneD.ITFReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B64651F5-9E86-3F3C-8DEA-96393A6E3A79}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B64651F5-9E86-3F3C-8DEA-96393A6E3A79}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B64651F5-9E86-3F3C-8DEA-96393A6E3A79}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B76B7BC2-8ACE-3993-BA9E-ADDB1690F3A3}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B76B7BC2-8ACE-3993-BA9E-ADDB1690F3A3}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.CodaBarWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B76B7BC2-8ACE-3993-BA9E-ADDB1690F3A3}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B76B7BC2-8ACE-3993-BA9E-ADDB1690F3A3}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B76B7BC2-8ACE-3993-BA9E-ADDB1690F3A3}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B76B7BC2-8ACE-3993-BA9E-ADDB1690F3A3}\InprocServer32" Name="Class" Value="ZXing.OneD.CodaBarWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B76B7BC2-8ACE-3993-BA9E-ADDB1690F3A3}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B76B7BC2-8ACE-3993-BA9E-ADDB1690F3A3}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B76B7BC2-8ACE-3993-BA9E-ADDB1690F3A3}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B7FE1B1B-8177-315B-9530-AA6D54E728AC}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B7FE1B1B-8177-315B-9530-AA6D54E728AC}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.MSIWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B7FE1B1B-8177-315B-9530-AA6D54E728AC}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B7FE1B1B-8177-315B-9530-AA6D54E728AC}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B7FE1B1B-8177-315B-9530-AA6D54E728AC}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B7FE1B1B-8177-315B-9530-AA6D54E728AC}\InprocServer32" Name="Class" Value="ZXing.OneD.MSIWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B7FE1B1B-8177-315B-9530-AA6D54E728AC}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B7FE1B1B-8177-315B-9530-AA6D54E728AC}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{B7FE1B1B-8177-315B-9530-AA6D54E728AC}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{BD7CD2FC-6EAE-33BC-81A6-993C741ADBB4}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{BD7CD2FC-6EAE-33BC-81A6-993C741ADBB4}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.PDF417.Internal.EC.ErrorCorrection" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{BD7CD2FC-6EAE-33BC-81A6-993C741ADBB4}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{BD7CD2FC-6EAE-33BC-81A6-993C741ADBB4}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{BD7CD2FC-6EAE-33BC-81A6-993C741ADBB4}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{BD7CD2FC-6EAE-33BC-81A6-993C741ADBB4}\InprocServer32" Name="Class" Value="ZXing.PDF417.Internal.EC.ErrorCorrection" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{BD7CD2FC-6EAE-33BC-81A6-993C741ADBB4}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{BD7CD2FC-6EAE-33BC-81A6-993C741ADBB4}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{BD7CD2FC-6EAE-33BC-81A6-993C741ADBB4}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C04B3543-CA63-31BB-B547-C11A23E01029}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C04B3543-CA63-31BB-B547-C11A23E01029}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.Code93Writer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C04B3543-CA63-31BB-B547-C11A23E01029}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C04B3543-CA63-31BB-B547-C11A23E01029}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C04B3543-CA63-31BB-B547-C11A23E01029}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C04B3543-CA63-31BB-B547-C11A23E01029}\InprocServer32" Name="Class" Value="ZXing.OneD.Code93Writer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C04B3543-CA63-31BB-B547-C11A23E01029}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C04B3543-CA63-31BB-B547-C11A23E01029}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C04B3543-CA63-31BB-B547-C11A23E01029}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C2202DD2-5F8B-3D7A-AEFE-6B495C46F257}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C2202DD2-5F8B-3D7A-AEFE-6B495C46F257}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.PDF417.PDF417ResultMetadata" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C2202DD2-5F8B-3D7A-AEFE-6B495C46F257}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C2202DD2-5F8B-3D7A-AEFE-6B495C46F257}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C2202DD2-5F8B-3D7A-AEFE-6B495C46F257}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C2202DD2-5F8B-3D7A-AEFE-6B495C46F257}\InprocServer32" Name="Class" Value="ZXing.PDF417.PDF417ResultMetadata" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C2202DD2-5F8B-3D7A-AEFE-6B495C46F257}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C2202DD2-5F8B-3D7A-AEFE-6B495C46F257}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C2202DD2-5F8B-3D7A-AEFE-6B495C46F257}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C691D486-613E-30EA-B8C8-C44AA8606463}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C691D486-613E-30EA-B8C8-C44AA8606463}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.PDF417.PDF417EncodingOptions" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C691D486-613E-30EA-B8C8-C44AA8606463}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C691D486-613E-30EA-B8C8-C44AA8606463}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C691D486-613E-30EA-B8C8-C44AA8606463}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C691D486-613E-30EA-B8C8-C44AA8606463}\InprocServer32" Name="Class" Value="ZXing.PDF417.PDF417EncodingOptions" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C691D486-613E-30EA-B8C8-C44AA8606463}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C691D486-613E-30EA-B8C8-C44AA8606463}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C691D486-613E-30EA-B8C8-C44AA8606463}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C771E0D2-04F0-3AD2-A392-A77697E344ED}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C771E0D2-04F0-3AD2-A392-A77697E344ED}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Client.Result.WifiResultParser" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C771E0D2-04F0-3AD2-A392-A77697E344ED}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C771E0D2-04F0-3AD2-A392-A77697E344ED}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C771E0D2-04F0-3AD2-A392-A77697E344ED}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C771E0D2-04F0-3AD2-A392-A77697E344ED}\InprocServer32" Name="Class" Value="ZXing.Client.Result.WifiResultParser" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C771E0D2-04F0-3AD2-A392-A77697E344ED}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C771E0D2-04F0-3AD2-A392-A77697E344ED}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C771E0D2-04F0-3AD2-A392-A77697E344ED}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C80132AC-9970-3C16-80CF-C9D9681E27B6}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C80132AC-9970-3C16-80CF-C9D9681E27B6}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Datamatrix.DataMatrixReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C80132AC-9970-3C16-80CF-C9D9681E27B6}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C80132AC-9970-3C16-80CF-C9D9681E27B6}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C80132AC-9970-3C16-80CF-C9D9681E27B6}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C80132AC-9970-3C16-80CF-C9D9681E27B6}\InprocServer32" Name="Class" Value="ZXing.Datamatrix.DataMatrixReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C80132AC-9970-3C16-80CF-C9D9681E27B6}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C80132AC-9970-3C16-80CF-C9D9681E27B6}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{C80132AC-9970-3C16-80CF-C9D9681E27B6}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{CB21DD01-D65B-3B7A-9642-AF4BEDB430E9}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{CB21DD01-D65B-3B7A-9642-AF4BEDB430E9}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Aztec.AztecEncodingOptions" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{CB21DD01-D65B-3B7A-9642-AF4BEDB430E9}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{CB21DD01-D65B-3B7A-9642-AF4BEDB430E9}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{CB21DD01-D65B-3B7A-9642-AF4BEDB430E9}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{CB21DD01-D65B-3B7A-9642-AF4BEDB430E9}\InprocServer32" Name="Class" Value="ZXing.Aztec.AztecEncodingOptions" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{CB21DD01-D65B-3B7A-9642-AF4BEDB430E9}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{CB21DD01-D65B-3B7A-9642-AF4BEDB430E9}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{CB21DD01-D65B-3B7A-9642-AF4BEDB430E9}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{D25BF8B4-8706-335D-9D4D-CF48758D2DAA}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{D25BF8B4-8706-335D-9D4D-CF48758D2DAA}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.IMB.IMBReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{D25BF8B4-8706-335D-9D4D-CF48758D2DAA}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{D25BF8B4-8706-335D-9D4D-CF48758D2DAA}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{D25BF8B4-8706-335D-9D4D-CF48758D2DAA}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{D25BF8B4-8706-335D-9D4D-CF48758D2DAA}\InprocServer32" Name="Class" Value="ZXing.IMB.IMBReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{D25BF8B4-8706-335D-9D4D-CF48758D2DAA}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{D25BF8B4-8706-335D-9D4D-CF48758D2DAA}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{D25BF8B4-8706-335D-9D4D-CF48758D2DAA}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{D5BCBC70-D7FE-335C-A1A7-459C7D6B065D}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{D5BCBC70-D7FE-335C-A1A7-459C7D6B065D}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.Code128Writer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{D5BCBC70-D7FE-335C-A1A7-459C7D6B065D}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{D5BCBC70-D7FE-335C-A1A7-459C7D6B065D}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{D5BCBC70-D7FE-335C-A1A7-459C7D6B065D}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{D5BCBC70-D7FE-335C-A1A7-459C7D6B065D}\InprocServer32" Name="Class" Value="ZXing.OneD.Code128Writer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{D5BCBC70-D7FE-335C-A1A7-459C7D6B065D}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{D5BCBC70-D7FE-335C-A1A7-459C7D6B065D}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{D5BCBC70-D7FE-335C-A1A7-459C7D6B065D}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{DC168E30-768B-39BD-8151-BA7BD2C1D592}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{DC168E30-768B-39BD-8151-BA7BD2C1D592}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Rendering.SvgRenderer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{DC168E30-768B-39BD-8151-BA7BD2C1D592}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{DC168E30-768B-39BD-8151-BA7BD2C1D592}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{DC168E30-768B-39BD-8151-BA7BD2C1D592}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{DC168E30-768B-39BD-8151-BA7BD2C1D592}\InprocServer32" Name="Class" Value="ZXing.Rendering.SvgRenderer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{DC168E30-768B-39BD-8151-BA7BD2C1D592}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{DC168E30-768B-39BD-8151-BA7BD2C1D592}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{DC168E30-768B-39BD-8151-BA7BD2C1D592}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E24D696D-E664-3D9D-A068-1B98388FDE67}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E24D696D-E664-3D9D-A068-1B98388FDE67}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Rendering.PixelDataRenderer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E24D696D-E664-3D9D-A068-1B98388FDE67}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E24D696D-E664-3D9D-A068-1B98388FDE67}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E24D696D-E664-3D9D-A068-1B98388FDE67}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E24D696D-E664-3D9D-A068-1B98388FDE67}\InprocServer32" Name="Class" Value="ZXing.Rendering.PixelDataRenderer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E24D696D-E664-3D9D-A068-1B98388FDE67}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E24D696D-E664-3D9D-A068-1B98388FDE67}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E24D696D-E664-3D9D-A068-1B98388FDE67}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E4662395-AE74-306B-A25F-BA631D1B7261}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E4662395-AE74-306B-A25F-BA631D1B7261}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Datamatrix.DatamatrixEncodingOptions" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E4662395-AE74-306B-A25F-BA631D1B7261}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E4662395-AE74-306B-A25F-BA631D1B7261}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E4662395-AE74-306B-A25F-BA631D1B7261}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E4662395-AE74-306B-A25F-BA631D1B7261}\InprocServer32" Name="Class" Value="ZXing.Datamatrix.DatamatrixEncodingOptions" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E4662395-AE74-306B-A25F-BA631D1B7261}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E4662395-AE74-306B-A25F-BA631D1B7261}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E4662395-AE74-306B-A25F-BA631D1B7261}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E59F8941-0394-321E-B2C9-EE08C049D054}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E59F8941-0394-321E-B2C9-EE08C049D054}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.PDF417.Internal.BarcodeValue" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E59F8941-0394-321E-B2C9-EE08C049D054}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E59F8941-0394-321E-B2C9-EE08C049D054}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E59F8941-0394-321E-B2C9-EE08C049D054}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E59F8941-0394-321E-B2C9-EE08C049D054}\InprocServer32" Name="Class" Value="ZXing.PDF417.Internal.BarcodeValue" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E59F8941-0394-321E-B2C9-EE08C049D054}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E59F8941-0394-321E-B2C9-EE08C049D054}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E59F8941-0394-321E-B2C9-EE08C049D054}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E6455AC1-7E91-34E2-BEE5-688D6BA0B4DF}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E6455AC1-7E91-34E2-BEE5-688D6BA0B4DF}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.QrCode.QRCodeReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E6455AC1-7E91-34E2-BEE5-688D6BA0B4DF}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E6455AC1-7E91-34E2-BEE5-688D6BA0B4DF}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E6455AC1-7E91-34E2-BEE5-688D6BA0B4DF}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E6455AC1-7E91-34E2-BEE5-688D6BA0B4DF}\InprocServer32" Name="Class" Value="ZXing.QrCode.QRCodeReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E6455AC1-7E91-34E2-BEE5-688D6BA0B4DF}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E6455AC1-7E91-34E2-BEE5-688D6BA0B4DF}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E6455AC1-7E91-34E2-BEE5-688D6BA0B4DF}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E80C82D3-4E0C-335A-826C-1A120B529FAD}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E80C82D3-4E0C-335A-826C-1A120B529FAD}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.OneD.RSS.RSS14Reader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E80C82D3-4E0C-335A-826C-1A120B529FAD}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E80C82D3-4E0C-335A-826C-1A120B529FAD}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E80C82D3-4E0C-335A-826C-1A120B529FAD}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E80C82D3-4E0C-335A-826C-1A120B529FAD}\InprocServer32" Name="Class" Value="ZXing.OneD.RSS.RSS14Reader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E80C82D3-4E0C-335A-826C-1A120B529FAD}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E80C82D3-4E0C-335A-826C-1A120B529FAD}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{E80C82D3-4E0C-335A-826C-1A120B529FAD}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{EE9A527A-F7EA-3D32-A8A3-D550675D15DA}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{EE9A527A-F7EA-3D32-A8A3-D550675D15DA}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Common.DecodingOptions" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{EE9A527A-F7EA-3D32-A8A3-D550675D15DA}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{EE9A527A-F7EA-3D32-A8A3-D550675D15DA}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{EE9A527A-F7EA-3D32-A8A3-D550675D15DA}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{EE9A527A-F7EA-3D32-A8A3-D550675D15DA}\InprocServer32" Name="Class" Value="ZXing.Common.DecodingOptions" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{EE9A527A-F7EA-3D32-A8A3-D550675D15DA}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{EE9A527A-F7EA-3D32-A8A3-D550675D15DA}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{EE9A527A-F7EA-3D32-A8A3-D550675D15DA}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F66FD554-59DF-3738-BD53-0A3EC483441B}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F66FD554-59DF-3738-BD53-0A3EC483441B}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.MultiFormatWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F66FD554-59DF-3738-BD53-0A3EC483441B}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F66FD554-59DF-3738-BD53-0A3EC483441B}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F66FD554-59DF-3738-BD53-0A3EC483441B}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F66FD554-59DF-3738-BD53-0A3EC483441B}\InprocServer32" Name="Class" Value="ZXing.MultiFormatWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F66FD554-59DF-3738-BD53-0A3EC483441B}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F66FD554-59DF-3738-BD53-0A3EC483441B}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F66FD554-59DF-3738-BD53-0A3EC483441B}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F928B20B-D1FE-356D-A022-DAB3E5060F56}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F928B20B-D1FE-356D-A022-DAB3E5060F56}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.QrCode.Internal.QRCode" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F928B20B-D1FE-356D-A022-DAB3E5060F56}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F928B20B-D1FE-356D-A022-DAB3E5060F56}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F928B20B-D1FE-356D-A022-DAB3E5060F56}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F928B20B-D1FE-356D-A022-DAB3E5060F56}\InprocServer32" Name="Class" Value="ZXing.QrCode.Internal.QRCode" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F928B20B-D1FE-356D-A022-DAB3E5060F56}\InprocServer32" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F928B20B-D1FE-356D-A022-DAB3E5060F56}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F928B20B-D1FE-356D-A022-DAB3E5060F56}\InprocServer32" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{07405379-D6AE-3117-8F86-6CEDA793F2E6}\0.15.0.0" Name="Class" Value="ZXing.PDF417.Internal.PDF417ErrorCorrectionLevel" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{07405379-D6AE-3117-8F86-6CEDA793F2E6}\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{07405379-D6AE-3117-8F86-6CEDA793F2E6}\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{07405379-D6AE-3117-8F86-6CEDA793F2E6}\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{278337DD-7BB2-383A-B49E-5841FEFB61C5}\0.15.0.0" Name="Class" Value="ZXing.Client.Result.ParsedResultType" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{278337DD-7BB2-383A-B49E-5841FEFB61C5}\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{278337DD-7BB2-383A-B49E-5841FEFB61C5}\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{278337DD-7BB2-383A-B49E-5841FEFB61C5}\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{2B822210-7893-3572-A19F-4591654B0496}\0.15.0.0" Name="Class" Value="ZXing.Datamatrix.Encoder.SymbolShapeHint" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{2B822210-7893-3572-A19F-4591654B0496}\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{2B822210-7893-3572-A19F-4591654B0496}\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{2B822210-7893-3572-A19F-4591654B0496}\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{5009BB76-D49D-33BF-8E7E-ACCC3030CE20}\0.15.0.0" Name="Class" Value="ZXing.DecodeHintType" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{5009BB76-D49D-33BF-8E7E-ACCC3030CE20}\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{5009BB76-D49D-33BF-8E7E-ACCC3030CE20}\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{5009BB76-D49D-33BF-8E7E-ACCC3030CE20}\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{6BE33B02-89D4-3EDA-9782-5C86986218A3}\0.15.0.0" Name="Class" Value="ZXing.ResultMetadataType" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{6BE33B02-89D4-3EDA-9782-5C86986218A3}\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{6BE33B02-89D4-3EDA-9782-5C86986218A3}\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{6BE33B02-89D4-3EDA-9782-5C86986218A3}\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{81B3018F-86A1-3C13-8A52-6552CCECC07A}\0.15.0.0" Name="Class" Value="ZXing.PDF417.Internal.Compaction" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{81B3018F-86A1-3C13-8A52-6552CCECC07A}\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{81B3018F-86A1-3C13-8A52-6552CCECC07A}\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{81B3018F-86A1-3C13-8A52-6552CCECC07A}\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{8804213D-76BD-3FDB-9F74-C2E64C0769ED}\0.15.0.0" Name="Class" Value="ZXing.EncodeHintType" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{8804213D-76BD-3FDB-9F74-C2E64C0769ED}\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{8804213D-76BD-3FDB-9F74-C2E64C0769ED}\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{8804213D-76BD-3FDB-9F74-C2E64C0769ED}\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{D6A189A6-79D3-3364-9205-A49EB79DCC54}\0.15.0.0" Name="Class" Value="ZXing.BarcodeFormat" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{D6A189A6-79D3-3364-9205-A49EB79DCC54}\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{D6A189A6-79D3-3364-9205-A49EB79DCC54}\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{D6A189A6-79D3-3364-9205-A49EB79DCC54}\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{F0E65B92-1C10-3AA7-92A7-CB5034E86A33}\0.15.0.0" Name="Class" Value="ZXing.RGBLuminanceSource+BitmapFormat" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{F0E65B92-1C10-3AA7-92A7-CB5034E86A33}\0.15.0.0" Name="Assembly" Value="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{F0E65B92-1C10-3AA7-92A7-CB5034E86A33}\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="Record\{F0E65B92-1C10-3AA7-92A7-CB5034E86A33}\0.15.0.0" Name="CodeBase" Value="file:///[#fil0DB3CF1C96C7362BABA83D6ACEEAA89E]" Type="string" Action="write" />
+                </Component>
+                <Component Id="cmp6C57B5DCBB2BEF77F32E7D9D17DF0286" Guid="{AB49DF25-3A82-40AD-A16A-8FCF9AB59FC7}">
+                    <File Id="filC068C69559D7C13B2B600CDA98A42AE9" KeyPath="yes" Source="SourceDir\zxing.pdb" />
+                </Component>
+                <Component Id="cmp99D559B188F48D8B33A89F3DA0AD0D6F" Guid="{5F1C41F9-26FC-471B-B075-2EB7B72C770B}">
+                    <Class Id="{01A7A573-C2EE-3D37-99C1-DDE276A4839B}" Context="InprocServer32" Description="ZXing.Presentation.BarcodeReader" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Presentation.BarcodeReader" Description="ZXing.Presentation.BarcodeReader" />
+                    </Class>
+                    <Class Id="{0603531C-C218-3071-B0B2-0F4FB8524B64}" Context="InprocServer32" Description="ZXing.Rendering.GeometryRenderer" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Rendering.GeometryRenderer" Description="ZXing.Rendering.GeometryRenderer" />
+                    </Class>
+                    <Class Id="{38357451-6BA3-373B-8E33-E90E19C304A7}" Context="InprocServer32" Description="ZXing.Rendering.WriteableBitmapRenderer" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Rendering.WriteableBitmapRenderer" Description="ZXing.Rendering.WriteableBitmapRenderer" />
+                    </Class>
+                    <Class Id="{CE362C6E-340A-32A0-A627-10AF19755BF8}" Context="InprocServer32" Description="ZXing.Presentation.BarcodeWriterGeometry" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Presentation.BarcodeWriterGeometry" Description="ZXing.Presentation.BarcodeWriterGeometry" />
+                    </Class>
+                    <Class Id="{F52D2B25-8EBD-3A81-B7CC-DBDA2EE46F65}" Context="InprocServer32" Description="ZXing.Presentation.BarcodeWriter" ThreadingModel="both" ForeignServer="mscoree.dll">
+                        <ProgId Id="ZXing.Presentation.BarcodeWriter" Description="ZXing.Presentation.BarcodeWriter" />
+                    </Class>
+                    <File Id="fil901739C91DDCA2CE4B17580B758BDAFB" KeyPath="yes" Source="SourceDir\zxing.presentation.dll" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{01A7A573-C2EE-3D37-99C1-DDE276A4839B}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{01A7A573-C2EE-3D37-99C1-DDE276A4839B}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Presentation.BarcodeReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{01A7A573-C2EE-3D37-99C1-DDE276A4839B}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing.presentation, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{01A7A573-C2EE-3D37-99C1-DDE276A4839B}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{01A7A573-C2EE-3D37-99C1-DDE276A4839B}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil901739C91DDCA2CE4B17580B758BDAFB]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{01A7A573-C2EE-3D37-99C1-DDE276A4839B}\InprocServer32" Name="Class" Value="ZXing.Presentation.BarcodeReader" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{01A7A573-C2EE-3D37-99C1-DDE276A4839B}\InprocServer32" Name="Assembly" Value="zxing.presentation, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{01A7A573-C2EE-3D37-99C1-DDE276A4839B}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{01A7A573-C2EE-3D37-99C1-DDE276A4839B}\InprocServer32" Name="CodeBase" Value="file:///[#fil901739C91DDCA2CE4B17580B758BDAFB]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0603531C-C218-3071-B0B2-0F4FB8524B64}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0603531C-C218-3071-B0B2-0F4FB8524B64}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Rendering.GeometryRenderer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0603531C-C218-3071-B0B2-0F4FB8524B64}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing.presentation, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0603531C-C218-3071-B0B2-0F4FB8524B64}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0603531C-C218-3071-B0B2-0F4FB8524B64}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil901739C91DDCA2CE4B17580B758BDAFB]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0603531C-C218-3071-B0B2-0F4FB8524B64}\InprocServer32" Name="Class" Value="ZXing.Rendering.GeometryRenderer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0603531C-C218-3071-B0B2-0F4FB8524B64}\InprocServer32" Name="Assembly" Value="zxing.presentation, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0603531C-C218-3071-B0B2-0F4FB8524B64}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{0603531C-C218-3071-B0B2-0F4FB8524B64}\InprocServer32" Name="CodeBase" Value="file:///[#fil901739C91DDCA2CE4B17580B758BDAFB]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{38357451-6BA3-373B-8E33-E90E19C304A7}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{38357451-6BA3-373B-8E33-E90E19C304A7}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Rendering.WriteableBitmapRenderer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{38357451-6BA3-373B-8E33-E90E19C304A7}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing.presentation, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{38357451-6BA3-373B-8E33-E90E19C304A7}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{38357451-6BA3-373B-8E33-E90E19C304A7}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil901739C91DDCA2CE4B17580B758BDAFB]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{38357451-6BA3-373B-8E33-E90E19C304A7}\InprocServer32" Name="Class" Value="ZXing.Rendering.WriteableBitmapRenderer" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{38357451-6BA3-373B-8E33-E90E19C304A7}\InprocServer32" Name="Assembly" Value="zxing.presentation, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{38357451-6BA3-373B-8E33-E90E19C304A7}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{38357451-6BA3-373B-8E33-E90E19C304A7}\InprocServer32" Name="CodeBase" Value="file:///[#fil901739C91DDCA2CE4B17580B758BDAFB]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{CE362C6E-340A-32A0-A627-10AF19755BF8}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{CE362C6E-340A-32A0-A627-10AF19755BF8}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Presentation.BarcodeWriterGeometry" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{CE362C6E-340A-32A0-A627-10AF19755BF8}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing.presentation, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{CE362C6E-340A-32A0-A627-10AF19755BF8}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{CE362C6E-340A-32A0-A627-10AF19755BF8}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil901739C91DDCA2CE4B17580B758BDAFB]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{CE362C6E-340A-32A0-A627-10AF19755BF8}\InprocServer32" Name="Class" Value="ZXing.Presentation.BarcodeWriterGeometry" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{CE362C6E-340A-32A0-A627-10AF19755BF8}\InprocServer32" Name="Assembly" Value="zxing.presentation, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{CE362C6E-340A-32A0-A627-10AF19755BF8}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{CE362C6E-340A-32A0-A627-10AF19755BF8}\InprocServer32" Name="CodeBase" Value="file:///[#fil901739C91DDCA2CE4B17580B758BDAFB]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F52D2B25-8EBD-3A81-B7CC-DBDA2EE46F65}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F52D2B25-8EBD-3A81-B7CC-DBDA2EE46F65}\InprocServer32\0.15.0.0" Name="Class" Value="ZXing.Presentation.BarcodeWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F52D2B25-8EBD-3A81-B7CC-DBDA2EE46F65}\InprocServer32\0.15.0.0" Name="Assembly" Value="zxing.presentation, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F52D2B25-8EBD-3A81-B7CC-DBDA2EE46F65}\InprocServer32\0.15.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F52D2B25-8EBD-3A81-B7CC-DBDA2EE46F65}\InprocServer32\0.15.0.0" Name="CodeBase" Value="file:///[#fil901739C91DDCA2CE4B17580B758BDAFB]" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F52D2B25-8EBD-3A81-B7CC-DBDA2EE46F65}\InprocServer32" Name="Class" Value="ZXing.Presentation.BarcodeWriter" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F52D2B25-8EBD-3A81-B7CC-DBDA2EE46F65}\InprocServer32" Name="Assembly" Value="zxing.presentation, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F52D2B25-8EBD-3A81-B7CC-DBDA2EE46F65}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                    <RegistryValue Root="HKCR" Key="CLSID\{F52D2B25-8EBD-3A81-B7CC-DBDA2EE46F65}\InprocServer32" Name="CodeBase" Value="file:///[#fil901739C91DDCA2CE4B17580B758BDAFB]" Type="string" Action="write" />
+                </Component>
+                <Component Id="cmp28F83C70AA1C74CF4CDD528FDF15CE35" Guid="{6B7A7E89-93A1-4C0A-92D8-99783A3C74E6}">
+                    <File Id="fil9C5F87794D957A488BBDDEBEEFB289FD" KeyPath="yes" Source="SourceDir\zxing.presentation.pdb" />
+                </Component>
+                <Component Id="cmpDC3CE0ADDBDC78BFD8C1186419FC5802" Guid="{B26B1401-32EC-4146-87CD-EF1B2724544D}">
+                    <File Id="fil2A764FE78FD40B21B6217437A78DF593" KeyPath="yes" Source="SourceDir\zxing.presentation.xml" />
+                </Component>
+                <Component Id="cmpDB80726CD0EE7CCC1151301DC4D04C1A" Guid="{F2D8144E-CD56-40EA-A6A0-27EBE1423DBA}">
+                    <File Id="filB8FA24EA461E1BCECDCE6C3B86D63199" KeyPath="yes" Source="SourceDir\zxing.xml" />
+                </Component>
+                <Directory Id="dirDA00AB399CE86C3C2A1C1431458E5CC3" Name="de">
+                    <Component Id="cmp0E9B40C831F0223CB601F87E4E6BA3E0" Guid="{7E640668-EC7B-4172-9B35-D46B05C54E63}">
+                        <File Id="fil09AD6EBA85F439C516B0979E695E2918" KeyPath="yes" Source="SourceDir\de\Microsoft.SqlServer.Types.resources.dll" />
+                    </Component>
+                </Directory>
+                <Directory Id="dir5DDD448FBCA8B5F47F47D18B69CA0595" Name="es">
+                    <Component Id="cmp4E4AC9FB083E10263C41159A12A0BEFF" Guid="{719CD0A7-B65C-4AA2-A90F-10C2DE3458EE}">
+                        <File Id="fil7938B27FE4CAE622594F92784A69BBE7" KeyPath="yes" Source="SourceDir\es\Microsoft.SqlServer.Types.resources.dll" />
+                    </Component>
+                </Directory>
+                <Directory Id="dirB6808DBDD0D853C5105884669B94E132" Name="fr">
+                    <Component Id="cmp20DB6D490C937C1712C292C24A1AFCD4" Guid="{E18022CD-3302-4079-93B1-ECE0AAD3C442}">
+                        <File Id="fil0B40229E0911DFB292D018D238B8CF57" KeyPath="yes" Source="SourceDir\fr\Microsoft.SqlServer.Types.resources.dll" />
+                    </Component>
+                </Directory>
+                <Directory Id="dirD2731232DAE0A196A6EEB7BA3B7F0A80" Name="it">
+                    <Component Id="cmp89726776FB76E3D93F6D77CD3B9DE189" Guid="{87827C61-7C7C-4E8E-8EF3-4A91759BF034}">
+                        <File Id="fil4808C295A50B557E73D60B2B2F69E43B" KeyPath="yes" Source="SourceDir\it\Microsoft.SqlServer.Types.resources.dll" />
+                    </Component>
+                </Directory>
+                <Directory Id="dir1F1DF9D8C8AC6451751E2FF7A67C9689" Name="ja">
+                    <Component Id="cmp3FAEDA1F595620081C78A6A8128C7B2D" Guid="{698B0320-BEC0-47A9-B75A-2953D255276A}">
+                        <File Id="fil205F063BAA8143D9477A39AED647FFDB" KeyPath="yes" Source="SourceDir\ja\Microsoft.SqlServer.Types.resources.dll" />
+                    </Component>
+                </Directory>
+                <Directory Id="dir878E288122D414B8F2978FDBB78B2380" Name="ko">
+                    <Component Id="cmp5A9DE7787F65FDF90F3868DA1F615F02" Guid="{313FC2D6-7422-4CF1-8B68-C82DF777F486}">
+                        <File Id="filD7332DC13CC3C7A25137E76D68288DEF" KeyPath="yes" Source="SourceDir\ko\Microsoft.SqlServer.Types.resources.dll" />
+                    </Component>
+                </Directory>
+                <Directory Id="dirA70BEFAC8BCE1B1F81C256AEF43B1367" Name="logs">
+                    <Component Id="cmp2929F2413B7BD93989ECD4FAFA89771C" Guid="{08A83CD8-3471-4C65-9579-AAD53EC9B662}">
+                        <File Id="filA6B468BCD52CF1D9BDD638F1113453D3" KeyPath="yes" Source="SourceDir\logs\output.log" />
+                    </Component>
+                    <Component Id="cmp6AAF47C0A637D70D8BFA7B659E6C0247" Guid="{1A19692F-2642-4566-B49A-FDADAF50CC4E}">
+                        <File Id="filF10714D570F380BAE624A7A256AAB406" KeyPath="yes" Source="SourceDir\logs\output0.log" />
+                    </Component>
+                    <Component Id="cmpB7DA916E9516884A057B3B9858B67F61" Guid="{2786439A-6082-4D80-8865-D81FB51F51DB}">
+                        <File Id="filCE5D779D20F67E84A9EA9422BA7D1D57" KeyPath="yes" Source="SourceDir\logs\output1.log" />
+                    </Component>
+                </Directory>
+                <Directory Id="dir35F314E76BC2307B534D8782E788249C" Name="pt">
+                    <Component Id="cmp6925AD5014D3D7AD2FE531966829CF2D" Guid="{4162AE0D-540A-40BC-81B7-F241783317AB}">
+                        <File Id="fil95351F6D2BF9D3943E86DA1298F6D36A" KeyPath="yes" Source="SourceDir\pt\Microsoft.SqlServer.Types.resources.dll" />
+                    </Component>
+                </Directory>
+                <Directory Id="dirF413F4E6FEE4C6E2C2B79F13FEC68830" Name="ru">
+                    <Component Id="cmp3E0649761A9DD295E7042910CD303A9A" Guid="{E8DA1B40-1E82-4EE1-B3DA-4ACBEFC46B63}">
+                        <File Id="fil44926B29BCD4A3B87199A23B1F188DC1" KeyPath="yes" Source="SourceDir\ru\Microsoft.SqlServer.Types.resources.dll" />
+                    </Component>
+                </Directory>
+                <Directory Id="dir8951A8B562CBB116384EE1A4E60E6C85" Name="zh-Hans">
+                    <Component Id="cmpC078E6CC6DFB3003B9961FA9C2C98DBC" Guid="{78D3B7C5-6F4B-4697-B07B-E0B905B4D6D2}">
+                        <File Id="filB9AA77CF66F110F1AD7A9C331C1B1FBE" KeyPath="yes" Source="SourceDir\zh-Hans\Microsoft.SqlServer.Types.resources.dll" />
+                    </Component>
+                </Directory>
+                <Directory Id="dir2F991B42265746F54421FBF3E0B826EE" Name="zh-Hant">
+                    <Component Id="cmp3A56390A71679AD0D3691C411932BA05" Guid="{A5DB800A-3C8B-4FE8-B2E5-7D090732A00A}">
+                        <File Id="fil935BA019ABB169C466B3ADA0AC84A1F6" KeyPath="yes" Source="SourceDir\zh-Hant\Microsoft.SqlServer.Types.resources.dll" />
+                    </Component>
+                </Directory>
+            </Directory>
+        </DirectoryRef>
+    </Fragment>
+</Wix>
